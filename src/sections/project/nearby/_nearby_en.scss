@@ -1,0 +1,153 @@
+.nearby-section {
+    overflow: hidden;
+
+    .nearby-container {
+        margin-top: 100px;
+        overflow: hidden;
+        .nearby-title-container {
+            h1 {
+                color: #000000;
+                font-family: "Didot-Bold";
+                font-size: 35px;
+                font-weight: 700;
+            }
+            p {
+                color: #4a4a4a;
+                font-family: "DINPro-Regular";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 28px;
+                padding-top: 10px;
+            }
+        }
+        .nearby-item-container {
+            margin-top: 70px;
+            /*padding: 0 75px;*/
+            .nearby-item {
+                margin-top: 50px;
+                .nearby-img {
+                    text-align: center;
+                    img {
+                        width: 150px;
+                        @media (max-width: 768px) {
+                            width: 10vw;
+                        }
+                        display: inline;
+                    }
+                }
+                .nearby-footer {
+                    display: none;
+                }
+            }
+
+            .slick-active {
+                .nearby-item {
+                    cursor:pointer;
+                }
+            }
+
+            /*.slick-active {
+                .nearby-item {
+                    .nearby-img {
+                        &::before {
+                            margin: 60px;
+                            position: absolute;
+                            border-radius: 2px;
+                            content: '';
+                            z-index: -1;
+                            background-color: #cfba823b;
+                            width: 2px;
+                            height: 2px;
+                        }
+                    }
+                }
+            }*/
+
+            .slick-current {
+                margin-top: -45px;
+                //min-width:260px;
+                .nearby-item {
+                    .nearby-img {
+                        background: url("../../../images/project/circle.png");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 260px;
+                        img {
+                            margin: 7px -30px;
+                            width: 240px;
+                            /*-webkit-transition: width 0.3s;
+                            transition: width 0.3s;
+                            transition-timing-function: ease-out;*/
+                        }
+                        /*&::before {
+                            margin: 30px 0;
+                            position: absolute;
+                            width: 200px;
+                            height: 200px;
+                            border-radius: 100px;
+                            content: '';
+                            z-index: -1;
+                            background-color: #cfba823b;
+                            -webkit-filter: blur(15px);
+                            -moz-filter: blur(15px);
+                            -o-filter: blur(15px);
+                            -ms-filter: blur(15px);
+                            filter: blur(15px);
+                        }*/
+                    }
+                    @media (max-width: 768px) {
+                        .nearby-img {
+                            /*background: none;*/
+                            background-size: 56vw;
+                            img {
+                                margin-top: 4.5vw;
+                                width: 58vw;
+                            }
+                            /*&::before {
+                                width: 15vw;
+                                height: 15vw;
+                            }*/
+                        }
+                    }
+                    .nearby-footer {
+                        display: block;
+                        // width:154%;
+                    }
+                }
+            }
+        }
+        .nearby-footer {
+            text-align: center;
+            max-width: 438px;
+            margin: 30px -77px 50px;
+            h1 {
+                color: #cfba82;
+                font-family: "DINPro-Bold";
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 40px;
+                text-transform: uppercase;
+            }
+            p {
+                color: #4a4a4a;
+                font-family: "DINPro-Regular";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+            @media (max-width: 768px) {
+                margin: 30px auto 50px;
+                max-width: 60vw;
+
+                h1 {
+                    font-size: 3vw;
+                    line-height: 3.1vw;
+                }
+                p {
+                    font-size: 2.5vw;
+                    line-height: 2.6vw;
+                }
+            }
+        }
+    }
+}

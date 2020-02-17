@@ -1,0 +1,29 @@
+.chairman-content-section.ar {
+
+    .title-container {
+        margin-right: 30px;
+        margin-left: 0;
+        .img-quote {
+            transform: scaleX(-1);
+        }
+        p{
+            margin-left: 20px;
+            font-family: "Noto-Kufi-Regular", "Noto-Kufi-Regular";
+            font-size: 26px;
+            font-weight: 400;
+            line-height: 39px;
+        }
+    }
+    .sub-content-container {
+        p{
+            font-family: "Noto-Kufi-Regular", "Noto-Kufi-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+        .text-bold {
+            font-family: "Noto-Kufi-Bold";
+            font-weight: 700;
+        }
+    }
+}

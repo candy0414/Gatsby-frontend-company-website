@@ -1,0 +1,39 @@
+.news-section.ar {
+    direction: rtl;
+    text-align: right;
+
+    .news-title h1 {
+        /*padding-right: 22px;
+        padding-left: 0;*/
+        font-family: "Noto-Kufi-Bold";
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .desktop-news {
+        .news-item {
+            .news-content {
+                .news-item-title {
+                    font-family: "Tajawal-ExtraBold";
+                    font-size: 22px;
+                    font-weight: 700;
+                    line-height: 28px;
+                }
+                .news-item-date {
+                    font-family: "Tajawal-ExtraBold";
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 22px;
+                    direction: ltr;
+                }
+                .news-item-explain {
+                    font-family: "Noto-Kufi-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+

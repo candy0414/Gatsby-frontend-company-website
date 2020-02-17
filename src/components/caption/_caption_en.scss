@@ -1,0 +1,50 @@
+.caption-section {
+    //background-image: linear-gradient(270deg, #666666 0%, #171615 100%);
+    background: linear-gradient(270deg, #666666 0%, #000000 100%);
+    padding-bottom: 50px;
+    h1 {
+        //        background: -webkit-linear-gradient( rgba(255, 255, 255, 0.27) 0%, rgba(111, 111, 111, 0.63) 100%);
+        background: -webkit-linear-gradient(rgba(255, 255, 255, 0.37), rgba(50, 50, 50, 0));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        color: #636363;
+        font-family: "Didot-Bold";
+        font-size: 110px;
+        font-weight: 700;
+        letter-spacing: 2.06px;
+        margin: -20px 0 0 0;
+        line-height: 1.54;
+        display: initial;
+        // color: #cfba82;
+        // font-family: "Didot-Bold";
+        // font-weight: 700;
+        // font-size: 75px;
+        // background: -webkit-linear-gradient(#cfba82, #fff);
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+        // transform: scale(1, 1.4);
+        // -webkit-transform: scale(1, 1.4);
+    }
+    h3 {
+        color: #ffffff;
+        font-family: "Didot-Bold";
+        font-size: 35px;
+        font-weight: 700;
+        position: relative;
+        top: -45px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        & {
+            padding-bottom: 15px;
+        }
+        h1 {
+            font-size: 14.3vw;
+            padding: 20px 0 0;
+        }
+        h3{
+            font-size: 4.56vw;
+            padding: 10px 0 0;
+        }
+    }
+}

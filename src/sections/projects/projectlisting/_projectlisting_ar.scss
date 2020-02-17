@@ -1,0 +1,35 @@
+.project-listing-section.ar {
+    direction: rtl;
+    text-align: right;
+
+    .listing-container {
+        text-align: right;
+    }
+    .listing-item {
+        margin: 20px 15px;
+        display: inline-block;
+        &:hover{
+            img{opacity:0.9}
+            a, p {text-decoration: none !important; color:#c0aa71 }
+        }
+    }
+    .listing-item:first-child, .listing-item:nth-child(3n+1) {
+        margin-right: 0 !important;
+        margin-left: 15px !important;
+    }
+    .listing-item:nth-child(3n) {
+        margin-left: 0 !important;
+        margin-right: 15px !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .listing-container {
+            text-align: center;
+        }
+        .listing-item, .listing-item:first-child, .listing-item:nth-child(3n+1), .listing-item:nth-child(3n) {
+            margin-left: auto !important;
+            margin-right: auto !important;
+            width:100%;
+        }
+    }
+}

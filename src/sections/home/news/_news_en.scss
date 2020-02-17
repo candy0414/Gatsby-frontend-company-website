@@ -1,0 +1,84 @@
+.news-section {
+    background-image: linear-gradient(179deg, #666666 0%, #171615 100%);
+    padding-top: 30px;
+    height: 522px;
+    margin: 0 auto;
+    .container {
+        margin: 0 auto;
+    }
+    .news-title h1 {
+        //padding-left: 22px;
+        color: #ffffff;
+        font-family: "Didot-Bold";
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .desktop-news {
+        //width: 100%;
+        position: relative;
+        .slick-arrow {
+            display: none !important;
+        }
+        .slick-list {
+            margin: 0 -15px;
+        }
+        .slick-slide > div {
+            padding: 0 15px;
+        }
+
+        .news-item {
+            //width: 27vw !important;
+            //width: 350px !important;
+            position: relative;
+            height: 640px;
+            .item-image {
+                height: 305px;
+                //width: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                &:hover{
+                    opacity:0.8
+                }
+            }
+            .news-content {
+                height: 190px;
+                background-color: #ffffff;
+                width: 100%;
+                position: absolute;
+                top: 305px;
+                padding: 8px 32px;
+                .news-item-title {
+                    color: #000000;
+                    font-family: "DINPro-Bold";
+                    font-size: 22px;
+                    font-weight: 700;
+                    line-height: 29px;
+                    padding: 0px;
+                    margin: 0px;
+                    text-transform: uppercase;
+                    &:hover{
+                        color:#cfba82;
+                    }
+                }
+                .news-item-date {
+                    color: #4a4a4a;
+                    font-family: "DINPro-Bold";
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 22px;
+                }
+                .news-item-explain {
+                    color: #4a4a4a;
+                    font-family: "DINPro-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+
+
+

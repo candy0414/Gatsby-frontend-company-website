@@ -1,0 +1,25 @@
+.mortgage-content-section.ar {
+    .content-title {
+        font-family: "Noto-Kufi-Bold";
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .sub-content-container {
+        p{
+            font-family: "Noto-Kufi-Regular", "DINPro-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+        li {
+            font-family: "Noto-Kufi-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+        .text-bold {
+            font-family: "Noto-Kufi-Bold";
+            font-weight: 700;
+        }
+    }
+}

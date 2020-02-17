@@ -1,0 +1,33 @@
+.whyDamac-story-section {
+    margin-top: 90px;
+    margin-bottom: 70px;
+    .left-text {
+        color: #000000;
+        font-family: "DINPro-Regular";
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 70px;
+        .bold-text {
+            font-family: "DINPro-Bold";
+            font-weight: 700;
+        }
+    }
+    .btn-container {
+        margin-bottom: 30px;
+    }
+    .right-text {
+        color: #4a4a4a;
+        font-family: "DINPro-Regular";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;        
+    }
+    .bottom-text {
+        color: #000000;
+        font-family: "DINPro-Medium";
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+}

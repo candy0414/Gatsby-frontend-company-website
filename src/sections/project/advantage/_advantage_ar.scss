@@ -1,0 +1,63 @@
+.advantage-section.ar {
+    direction: rtl;
+    text-align: right;
+
+    .amenty-container {
+        .amenty-title h1 {
+            font-family: "Noto-Kufi-Bold";
+            font-size: 35px;
+            font-weight: 700;
+        }
+        .amenty-title p {
+            font-family: "Noto-Kufi-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+
+        .amenty-item-container {
+            .amenty-item {
+                background-color: #cfba82;
+                // width: 370px;
+                margin-right: unset;
+                margin-left: 20px;
+            }
+            .slick-dots {
+                left: 17vw;
+                right: unset;
+                text-align: left;
+                @media (max-width:992px) {
+                    text-align: center;
+                    left: unset;
+                }
+            }
+            h2 {
+                font-family: "Tajawal-ExtraBold";
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 33.33px;
+                width: 100%;
+            }
+            p {
+                font-family: "Noto-Kufi-Regular";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 33px;
+            }
+        }
+
+        .amenty-btn {
+            margin-left: 20px;
+            margin-right: 0px;
+            p {
+                font-family: "Tajawal-ExtraBold";
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 48px;
+            }
+            img {
+                float: left;
+            }
+        }
+    }
+}

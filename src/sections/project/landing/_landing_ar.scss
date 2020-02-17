@@ -1,0 +1,80 @@
+.project-landing-section.ar {
+    direction: rtl;
+    text-align: right;
+    padding: 0 0 10px 0;
+
+    .back-container {
+        background-image: linear-gradient(90deg, #666666 0%, #000000 100%);
+    }
+    .landing-caption {
+        h1 {
+            font-family: "Noto-Kufi-Bold";
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 71px;
+        }
+        p {
+            font-family: "Noto-Kufi-Regular";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 48px;
+        }
+    }
+    .landing-items {
+        .item-landing {
+            margin-left: 100px;
+            margin-right: 0px;
+            div {
+                h1 {
+                    font-family: "Tajawal-ExtraBold";
+                    font-size: 35px;
+                    font-weight: 300;
+                }
+            }
+            p {
+                font-family: "Tajawal-Medium";
+                font-size: 14px;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .landing-explain {
+        font-family: "Noto-Kufi-Regular";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .project-brand-container {
+        .project-brand-text-container {
+            h2 {
+                font-size: 35px;
+                font-weight: 800;
+                color: black;
+                font-family: "Noto-Kufi-Bold";
+            }
+        }
+        p {
+            font-family: "Noto-Kufi-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+    }
+    .landing-btn-container {
+        .landing-btn {
+            margin-left: 20px;
+            margin-right: 0;
+            p {
+                font-family: "Tajawal-ExtraBold";
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 48px;
+            }
+            img {
+                float: left;
+                transform: rotate(180deg);
+            }
+        }
+    }
+}

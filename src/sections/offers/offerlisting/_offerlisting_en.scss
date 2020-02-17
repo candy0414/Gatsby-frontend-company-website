@@ -1,0 +1,30 @@
+.offer-listing-section {
+    margin-top: -37px;
+    position: relative;
+    .listing-container {
+        padding: 0 0 20px 0;
+        text-align: left;
+    }
+    .listing-item {
+        margin: 0 15px 20px;
+        display: inline-block;
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+    .listing-item:first-child, .listing-item:nth-child(3n+1) {
+        margin-left: 0 !important;
+    }
+    .listing-item:nth-child(3n) {
+        margin-right: 0 !important;
+    }
+    @media only screen and (max-width: 768px) {
+        .listing-container {
+            text-align: center;
+        }
+        .listing-item, .listing-item:first-child, .listing-item:nth-child(3n+1), .listing-item:nth-child(3n) {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+    }
+}

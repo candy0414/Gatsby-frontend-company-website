@@ -1,0 +1,84 @@
+.offer-landing-section.ar {
+    direction: rtl;
+    text-align: right;
+
+    .back-container {
+        background-image: linear-gradient(90deg, #666666 0%, #000000 100%);
+        height: 190px;
+        @media only screen and (max-width: 1200px){
+            height: 170px;
+        }
+        @media only screen and (max-width: 992px){
+            height: 130px;
+        }
+        @media only screen and (max-width: 768px){
+            height: 15vw;
+        }
+    }
+
+    .landing-content-container {
+        @media only screen and (max-width: 1200px){
+            padding-top: 200px;
+        }
+        @media only screen and (max-width: 992px){
+            padding-top: 170px;
+        }
+        @media only screen and (max-width: 768px){
+            padding-top: 20vw;
+        }
+    }
+    .landing-caption {
+        h1 {
+            font-family: "Tajawal-ExtraBold";
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 71px;
+        }
+    }
+    .landing-explain {
+        h1 {
+            font-family: "Noto-Kufi-Regular";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 48px;
+        }
+        p, li {
+            font-family: "Noto-Kufi-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+    }
+    .landing-visit-container {
+        .visit-title {
+            color: #4a4a4a;
+            font-family: "Noto-Kufi-Bold";
+            font-size: 14px;
+            font-weight: 700;
+        }
+        ul {
+            li {
+                font-family: "Noto-Kufi-Regular";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+            li::before {
+                margin-right: -2em;
+                margin-left: 1em;
+            }
+        }
+    }
+    .enquire-btn {
+        background-image: linear-gradient(227deg, #c0aa71 0%, #f3e0ab 100%);
+        p {
+            font-family: "Noto-Kufi-Bold";
+            font-size: 14px;
+            font-weight: 700;
+        }
+        &:hover {
+            background: #c0aa71;
+            cursor: pointer;
+        }
+    }
+}

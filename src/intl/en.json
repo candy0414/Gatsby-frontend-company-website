@@ -1,0 +1,416 @@
+{
+    "header":{
+        "projects": "Projects",
+        "offers": "Offers",
+        "mortgage": "Mortgage Assist",
+        "why": "Why DAMAC",
+        "about": "About DAMAC",
+        "chairman": "Chairman's Message",
+        "csr": "CSR",
+        "hotels": "Hotels & Resorts",
+        "enquire": "Enquire",
+        "login": "Login",
+        "hello": "Hello DAMAC",
+        "agent": "Agent Portal",
+        "search": "Search"
+    },
+    "side_bar": {
+        "enquire": "Enquire",
+        "call": "Call",
+        "whatsapp": "Whatsapp",
+        "contacts": "Contacts"
+    },
+    "footer": {
+        "sitemap": "Sitemap",
+        "term": "Term & Conditions",
+        "cookie": "Cookie Policy",
+        "privacy": "Privacy Policy",
+        "legal": "Legal Documentation",
+        "rent": "Rent",
+        "invester": "Investor Relations",
+        "media": "Media",
+        "press": "Press Release",
+        "video": "Video Gallery",
+        "tour": "3D Tours",
+        "career": "Careers",
+        "contact": "Contact us",
+        "subscribe": "Subscribe to our",
+        "exclusive": "exclusive offers",
+        "email": "Email"
+    },
+    "home":{
+        "landing": {
+            "know_more": "Know more"
+        },
+        "community": {
+            "caption": "Our communities",
+            "know_more": "Know more",
+            "damac": "DAMAC",
+            "aroundWorld": "Around the world",
+            "view_project": "VIEW PROJECTS"
+        },
+        "brand": {
+            "brand_partner": "Our brand partners"
+        },
+        "news": {
+            "title": "DAMAC in the news"
+        },
+        "working": {
+            "working_at": "Working at",
+            "damac": "DAMAC",
+            "careers": "Careers",
+            "lifeAtDamac": "Life at DAMAC"
+        }
+    },
+    "projects": {
+        "caption": {
+            "header": "Projects",
+            "content": "Discover your dream home"
+        },
+        "filter": {
+            "filter": "Filter",
+            "reset": "Reset Filter",
+            "search": "Search",
+            "type": "Project Type",
+            "buy": "Buy",
+            "rent":"Rent",
+            "country": "Country",
+            "city": "City",
+            "area": "Area",
+            "bedroom": "Bedroom",
+            "price": "Price",
+            "aed": "(AED)",
+            "status":"Project Status",
+            "completed": "Completed",
+            "apply": "Apply"
+        },
+        "listing": {
+            "location": "Location",
+            "loadmore": "Load More"
+        }
+    },
+    "project": {
+        "landing": {
+            "landing_item1": {
+                "content": "STARTING FROM"
+            },
+            "landing_item2": {
+                "content": "COMPLETION DATE"
+            },
+            "landing_item3": {
+                "content": "HANDOVER DATE"
+            },
+            "btn_payment": "PAYMENT PLAN",
+            "btn_mortgage": "MORTGAGE ASSIST"
+        },
+        "gallery": {
+            "title": "Gallery",
+            "view": "VIEW 360 TOUR",
+            "something": {
+                "title": "The Community",
+                "btnText": "Read More"
+            }
+        },
+        "offer": {
+            "title": "Exclusive offers",
+            "offer_item": {
+                "from": "Available from ",
+                "to": "Till "
+            }
+        },
+        "advantage": {
+            "amenty": {
+                "title1": "Amentities and advantages",
+                "amenty-btn-brochure": "Download brochure",
+                "amenty-btn-floor": "Download Floor Plans"
+            },
+            "nearby": {
+                "title1": "Nearby"
+            },
+            "location": {
+                "title": "Location",
+                "view": "view on google maps"
+            },
+            "construction": {
+                "title": "Construction updates"
+            },
+            "disclaimer": {
+                "title": "Disclaimer"
+            }
+        },
+        "community": {
+            "title": "Community Projects"
+        }
+    },
+    "offers": {
+        "caption": {
+            "header": "Offers",
+            "content": "Explore our exclusive offers"
+        },
+        "offer_item": {
+            "from": "Available from ",
+            "to": "Till "
+        }
+    },
+    "offer": {
+        "landing": {
+            "landing_item1": {
+                "content": "Start date"
+            },
+            "landing_item2": {
+                "content": "Available until"
+            },
+            "enquire": "Enquire"
+        },
+        "select": {
+            "title": "Select projects",
+            "btn-text": {
+                "brochure": "download brochure",
+                "floor": "floor plans",
+                "view-project": "view project"
+            },
+            "nav-text": {
+                "text1": "2 year payment plan",
+                "text2": "4 year payment plan",
+                "text3": "6 month payment plan"
+            },
+            "table": {
+                "thead": {
+                    "th1":"installment",
+                    "th2":"milestone",
+                    "th3":"payment(%)"
+                }
+            }
+        },
+        "register": {
+            "title": "Register your interest",
+            "required": "*All fields are required",
+            "select-text": "Title*",
+            "first-name": "First name*",
+            "last-name": "Last name*",
+            "mobile": "Mobile number*",
+            "email": "Email*",
+            "option1": "I’d like to hear about news and offers",
+            "option2": "I’ve read and agree to the",
+            "privacy": "Privacy Policy",
+            "submit": "Submit",
+            "MR":"MR.",
+             "MRS":"MRS.",
+            "MS" :"MS."
+        }
+    },
+    "whyDamac": {
+        "caption": {
+            "title": "About DAMAC",
+            "content": "Our story"
+        },
+        "story": {
+            "btn-text": "download Corporate brochure"
+        },
+        "message": {
+            "title": "Chairman’s message"
+        },
+        "management": {
+            "title": "Management Team"
+        },
+        "award": {
+            "title": "Awards"
+        },
+        "history": {
+            "title": "History",
+            "year-select": "Year",
+            "nav-text": {
+                "deliveries": "deliveries",
+                "announcements": "announcements",
+                "corporate": "corporate"
+            }
+        },
+        "corporate": {
+            "knowMore": "more about csr"
+        }
+    },
+    "payment": {
+        "caption": {
+            "header": "Payment Plan"
+        },
+        "nav-text": {
+            "text1": "2 year payment plan",
+            "text2": "4 year payment plan",
+            "text3": "6 month payment plan"
+        },
+        "table": {
+            "thead": {
+                "th1":"installment",
+                "th2":"milestone",
+                "th3":"payment(%)"
+            }
+        },
+        "return": "return to project"
+    },
+    "csr": {
+        "landing": {
+            "btn-title": "Life at DAMAC"
+        },
+        "cause": {
+            "btn-text": "About DAMAC"
+        }
+    },
+    "mortgage": {
+        "content": {
+            "title": "Mortage Assist"
+        }
+    },
+    "chairman": {
+        "caption": {
+            "header": "About DAMAC",
+            "content": "Chairman's message"
+        }
+    },
+    "contact": {
+        "caption": {
+            "header": "Contact",
+            "content": "Stay in touch with us"
+        },
+        "select-btn-text": {
+            "text1": "all",
+            "text2": "HEAD OFFICE",
+            "text3": "uae sales office",
+            "text4": "international contacts",
+            "text5": "international call centres"
+        },
+        "contact-item": {
+            "address1": "DAMAC Properties Dubai PJSC",
+            "address2": "PO Box 2195",
+            "address3": "Dubai, UAE",
+            "phone": "+971 4 373 1000",
+            "fax": "+971 4 373 1001"
+        },
+        "contact-item-title": {
+            "title1": "GENERAL CONTACT",
+            "title2": "HUMAN RESOURCES",
+            "title3": "CORPORATE COMMUNICATIONS",
+            "title4": "legal",
+            "title5": "media contacts",
+            "title6": "marketing contact",
+            "title7": "agent operations",
+            "title8": "international contact centre"
+        }
+    },
+    "agent": {
+        "caption": {
+            "header": "Agents Portal",
+            "content": "Become an Agent"
+        },
+        "portal": {
+            "title": "Register with us and enjoy the benefits of a dedicated agent portal!",
+            "items": {
+                "item1": {
+                    "title": "Take Control",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item2": {
+                    "title": "CHECK Availability",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item3": {
+                    "title": "BOOK DIRECTLY",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item4": {
+                    "title": "RECEIVE",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item5": {
+                    "title": "access",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item6": {
+                    "title": "Manage",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item7": {
+                    "title": "Email",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item8": {
+                    "title": "get",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item9": {
+                    "title": "access",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                }
+            },
+            "why-dubai": "why dubai"
+        },
+        "register": {
+            "title": "Register now",
+            "sub-title": {
+                "text1": "* If you are already an agent with DAMAC, you can ",
+                "text2": "login here"
+            },
+            "input-text": {
+                "sales": "Sales*",
+                "company": "Company Registration number",
+                "turnover": "Turnover",
+                "auth": "Authorised signatory*",
+                "design": "Designation*",
+                "email": "Email*",
+                "united": "United arab of emirates",
+                "mobile": "Mobile number*",
+                "city": "City"
+            }
+        }
+    },
+    "brochureModal": {
+        "title": "Download brochure",
+        "sub-title": "*Receive download link in your inbox",
+        "email": "Email",
+        "submit": "submit"
+    },
+    "floorModal": {
+        "title": "Download floor plan",
+        "sub-title": "*Receive download link in your inbox",
+        "sales": "Sales",
+        "submit": "submit"
+    },
+    "enquireModal": {
+        "title": "Get in touch with us",
+        "required": "*All fields are required",
+        "select-text": "Sales",
+        "input-title":"Title*",
+        "first-name": "First name*",
+        "last-name": "Last name*",
+        "mobile": "Mobile number*",
+        "email": "Email*",
+        "option1": "I’d like to hear about news and offers",
+        "option2": "I’ve read and agree to the",
+        "privacy": "Privacy Policy",
+        "submit": "Submit",
+        "MR":"MR.",
+        "MRS":"MRS.",
+        "MS" :"MS.",
+        "thank-header":"Thank you!",
+        "thank-content": "We will be in contact shortly."
+    },
+    "sitemap": {
+        "caption": {
+            "header": "Sitemap",
+            "content": "Sitemap"
+        },
+        "title": "List of pages",
+        "pages": {
+            "page1": "Home",
+            "page2": "Projects",
+            "page3": "Offers",
+            "page4": "Mortgage Assist",
+            "page5": "About DAMAC",
+            "page6": "CSR",
+            "page7": "Agent Portal",
+            "page8": "Term&Conditions",
+            "page9": "Cookie Policy",
+            "page10": "Privacy Policy",
+            "page11": "Contact us"
+        }
+    }
+}

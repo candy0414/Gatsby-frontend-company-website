@@ -1,0 +1,75 @@
+.whyDamac-history-section.ar {
+    .title-container {
+        h1 {
+            font-family: "Noto-Kufi-Bold";
+            font-size: 35px;
+            font-weight: 700;
+        }
+        p {
+            font-family: "Noto-Kufi-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 25px;
+        }
+    }
+    .content-container {
+        .input-select-div:after {
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            right: unset;
+            left: 13px;
+        }
+        .select-nav {
+            p {
+                font-family: "Noto-Kufi-Regular";
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+        .slider-btn-container {
+            margin-left: 8px;
+            margin-right: unset;
+            button {
+                margin-left: 20px;
+                margin-right: unset;
+                .left-arrow {
+                    transform: scaleX(1);
+                }
+                .right-arrow {
+                    transform: scaleX(-1);
+                }
+            }
+        }
+        .history-selected {
+            .select-nav {
+                p {
+                    font-family: "Tajawal-ExtraBold";
+                    font-weight: 700;
+                }
+            }
+        }
+        .history-slider {
+            margin-top: -90px;
+            .slick-arrow {
+                display: none !important;
+            }
+            .history-item {
+                .year-text {
+                    font-family: "Noto-Kufi-Bold";
+                    font-size: 110px;
+                    font-weight: 700;
+                }
+                .year-explain {
+                    max-width: 461px;
+                    color: #4a4a4a;
+                    font-family: "Noto-Kufi-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    float: right;
+                }
+            }
+        }
+    }
+}

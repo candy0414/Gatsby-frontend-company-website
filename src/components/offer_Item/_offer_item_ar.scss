@@ -1,0 +1,33 @@
+.offer-item.ar {
+    direction:rtl;
+    text-align: right;
+    .item-img-container {
+        .img-text-regular {
+            font-family: "Tajawal-Regular";
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 33px;
+        }
+        .img-text-bold {
+            font-family: "Tajawal-ExtraBold";
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 33px;
+        }
+    }
+    .item-text-container {
+        text-align: right;
+        h1 {
+            font-family: "Tajawal-ExtraBold";
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 33.33px;
+        }
+        p {
+            font-family: "Tajawal-Medium";
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+}

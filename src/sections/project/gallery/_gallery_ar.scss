@@ -1,0 +1,58 @@
+.gallery-section.ar {
+    direction: rtl;
+    text-align: right;
+    .title-container {
+        h1 {
+            font-family: "Tajawal-ExtraBold";
+            font-size: 35px;
+            font-weight: 700;
+        }
+        button {
+            margin-right: 20px;
+            margin-left: 0px;
+            float: left;
+
+            .left-arrow {
+                transform: scaleX(1);
+            }
+            .right-arrow {
+                transform: scaleX(-1);
+            }
+        }
+    }
+    .gallery-slider-container {
+        .gallery-item {
+            margin-left: 20px;
+            margin-right: 0px;
+        }
+    }
+
+    .tour-btn-container {
+        .tour-btn {
+            margin-left: 20px;
+            margin-right: 0px;
+            p {
+                font-family: "Tajawal-ExtraBold";
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 48px;
+            }
+            img {
+                float: left;
+            }
+        }
+    }
+    .something-container {
+        .something-title {
+            font-family: "Tajawal-ExtraBold";
+            font-size: 35px;
+            font-weight: 700;
+        }
+        .something-content {
+            font-family: "Noto-Kufi-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+    }
+}

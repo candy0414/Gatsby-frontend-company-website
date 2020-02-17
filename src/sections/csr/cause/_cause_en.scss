@@ -1,0 +1,54 @@
+.csr-cause-section {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    .content-container {
+        /*max-width: 924px;*/
+    }
+    .cause-title {
+        color: #000000;
+        font-family: "Didot-Bold";
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: 0.63px;
+    }
+    .text-container {
+        margin-top: 30px;
+        p {
+            color: #4a4a4a;
+            font-family: "DINPro-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            padding-bottom: 10px;
+        }
+        .text-bold {
+            font-family: "DINPro-Bold";
+            font-weight: 700;
+        }
+        .text-underline {
+            text-decoration: underline;
+        }
+        a {
+            color: #c0aa71
+        }
+    }
+    .cause-btn {
+        width: 297px;
+        background-image: linear-gradient(133deg, #c0aa71 0%, #f3e0ab 100%);
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        p {
+            color: #ffffff;
+            font-family: "DINPro-Bold";
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 15px 0;
+        }
+        &:hover {
+            background: #c0aa71;
+            cursor: pointer;
+        }
+    }
+}

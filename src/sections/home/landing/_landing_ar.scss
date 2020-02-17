@@ -1,0 +1,94 @@
+.landing-section.ar {
+    direction: rtl;
+    text-align: right;
+    padding: 33px 20px 20px 0px;
+
+    .landing-text-flex {
+        .slick-list {
+            //float: right;
+        }
+    }
+    .landing-progressbar svg {
+        transform: scaleX(-1);
+    }
+    .landing-caption-container {
+        h2 {
+            color: #262522;
+            font-family: "Tajawal-ExtraBold";
+            font-size: 3vw;
+            font-weight: 700;
+            line-height: 3.5vw;
+        }
+    }
+    .landing-caption-content {
+        font-family: "Noto-Kufi-Regular";
+        font-size: 1.03vw;
+        font-weight: 400;
+        line-height: 1.78vw;
+        display: block;
+        padding-left: 1.6px;
+        padding-right: 0;
+        padding-top: 1.6px;
+    }
+    .slider-btn {
+        background-image: linear-gradient(227deg, #c0aa71 0%, #f3e0ab 100%);
+        float: right;
+        p {
+            font-family: "Tajawal-ExtraBold";
+            font-size: 14px;
+            font-weight: 700;
+            padding-bottom: 7px;
+        }
+        &:hover, *:hover {
+            background: #c0aa71;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+    .progressbar-container > p {
+        font-family: "Noto-Kufi-Regular", "DINPro-Bold";
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .landing-caption-container {
+            h2 {
+                color: black;
+                font-size: 8.2vw;
+                font-weight: 720;
+                line-height: 10vw;
+                padding-top: 7vw;
+            }
+        }
+        .landing-caption-content {
+            font-size: 3.5vw;
+            font-weight: 400;
+            line-height: 5.5vw;
+            max-width: 90vw;
+            float: right;
+        }
+        .progressbar-container > p {
+            font-size: 5vw;
+        }
+        .slider-btn{
+            float:right;
+        }
+    }
+    .img-slider-container2 {
+        @media only screen and (max-width: 768px) {
+            padding-right: 6vw;
+            padding-left: 0;
+            .landing-slider-container {
+                .landing-item {
+                    margin-right: 60vw;
+                    // margin-right: 0vw;
+                }
+            }
+        }
+    }
+    // .container-fluid {
+    //     direction: rtl;
+    //     text-align: right;
+    // }
+}

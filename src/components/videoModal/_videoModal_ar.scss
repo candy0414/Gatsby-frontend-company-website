@@ -1,0 +1,10 @@
+.video-modal.ar {
+    direction: rtl;
+    text-align: right;
+    .close-btn {
+        width: 30px;
+        position: absolute;
+        left: 14px;
+        right: unset;
+    }
+}

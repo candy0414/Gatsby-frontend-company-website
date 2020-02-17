@@ -1,0 +1,8 @@
+.download-modal.ar {
+    direction: rtl;
+    text-align: right;
+    .close-btn {
+        right: unset;
+        left: 28px;
+    }
+}

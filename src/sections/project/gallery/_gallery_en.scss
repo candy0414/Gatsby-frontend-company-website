@@ -1,0 +1,110 @@
+.gallery-section {
+    overflow: hidden;
+    margin-bottom: 60px;
+    .title-container {
+        height: 426px;
+        padding-top: 60px;
+        background-image: linear-gradient(179deg, #666666 0%, #171615 100%);
+        h1 {
+            color: #ffffff;
+            font-family: "Didot-Bold";
+            font-size: 35px;
+            font-weight: 700;
+            display: inline;
+        }
+        button {
+            margin-top: 10px;
+            margin-left: 20px;
+            float: right;
+            background: transparent;
+            outline: none;
+            border: none;
+            display: inline;
+            img {
+                opacity: 0.5;
+            }
+            .left-arrow {
+                transform: scaleX(-1);
+            }
+        }
+        button:hover {
+            img {
+                opacity: 1;
+            }
+        }
+    }
+    .gallery-slider-container {
+        position: relative;
+        margin-top: -290px;
+        .slick-slider {
+            .slick-track {
+                word-break: break-all;
+                display: flex;
+            }
+            button {
+                display: none;
+            }
+        }
+        .gallery-item {
+            margin-right: 20px;
+        }
+    }
+
+    .tour-btn-container {
+        margin-top: 10px;
+        .tour-btn {
+            width: 297px;
+            height: 53px;
+            border: 1px solid #cfba82;
+            background-color: #ffffff;
+            display: inline-block;
+            padding: 0 20px 0 20px;
+            box-shadow: 1px 2px 11px rgba(138, 135, 119, 0.4);
+            margin-right: 20px;
+            margin-top: 10px;
+            p {
+                color: #262522;
+                font-family: "DINPro-Bold";
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 48px;
+                text-transform: uppercase;
+                display: inline-block;
+            }
+            img {
+                display: inline-block;
+                float: right;
+                margin-top: 12px;
+            }
+        }
+        .tour-btn:hover {
+            cursor: pointer;
+            background-color: #cfba82;
+            p {
+                color: #fff;
+            }
+            img {
+                filter: brightness(0) invert(1);
+            }
+        }
+    }
+    .something-container {
+        margin-top: 60px;
+        .something-title {
+            color: #000000;
+            font-family: "Didot-Bold";
+            font-size: 35px;
+            font-weight: 700;
+            margin-bottom: 50px;
+        }
+        .something-content {
+            color: #4a4a4a;
+            font-family: "DINPro-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+    }
+}

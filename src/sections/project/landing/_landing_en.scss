@@ -1,0 +1,108 @@
+.project-landing-section {
+    padding: 0 0 10px 0;
+
+    .back-container {
+        background-image: linear-gradient(270deg, #666666 0%, #000000 100%);
+        height: 350px;
+        @media only screen and (max-width: 1200px) {
+            height: 280px;
+        }
+        @media only screen and (max-width: 992px) {
+            height: 200px;
+        }
+        @media only screen and (max-width: 768px) {
+            height: 25vw;
+        }
+    }
+    .img-container img {
+        width: 100%;
+    }
+    .landing-content-container {
+        padding-top: 130px;
+        @media only screen and (max-width: 768px) {
+            padding-top: 78vw;
+        }
+    }
+    .landing-caption {
+        h1 {
+            color: #000000;
+            font-family: "Didot-Bold";
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 71px;
+        }
+        p {
+            color: #000000;
+            font-family: "DINPro-Regular";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 48px;
+        }
+    }
+    .landing-items {
+
+    }
+    .landing-explain {
+        margin-top: 30px;
+        color: #4a4a4a;
+        font-family: "DINPro-Regular";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .project-brand-container {
+        .project-brand-text-container {
+            border: none;
+            border-bottom: 1px solid #979797;
+            width: fit-content;
+            margin-top: 40px;
+            display: flex;
+            h2 {
+                font-size: 35px;
+                font-weight: 800;
+                color: black;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-transform: uppercase;
+            }
+        }
+        p {
+            margin-top: 15px;
+            color: #4a4a4a;
+            font-family: "DINPro-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+    }
+    .landing-btn-container {
+        margin: 80px 0;
+        .landing-btn {
+            width: max-content;
+            display: inline-block;
+            margin-right: 20px;
+            @media (max-width: 768px) {
+                margin-bottom:10px
+            }
+        }
+    }
+
+    .desktop-header {
+        display: block;
+        max-height: 451px;
+        overflow: hidden;
+    }
+    .mobile-header {
+        display: none;
+    }
+    @media (max-width: 768px) {
+        .desktop-header {
+            display: none;
+        }
+        .mobile-header {
+            display: block;
+            img{
+                margin-top: 20px;
+            }
+        }
+    }
+}

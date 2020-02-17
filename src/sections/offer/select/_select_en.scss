@@ -1,0 +1,229 @@
+.offer-select-section {
+    background-image: linear-gradient(183deg, rgba(246,242,234,1) 0%, rgba(243, 224, 171, 0.19) 100%);
+    padding-bottom: 30px;
+    .title-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        h1 {
+            color: #000000;
+            font-family: "Didot-Bold";
+            font-size: 35px;
+            font-weight: 700;            
+        }
+    }
+    .select-btn-group {
+        margin-bottom: 40px;
+        max-width: 900px;
+        .select-btn {
+            border-radius: 2px;
+            background-color: #ede6d3;
+            padding: 15px 25px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            p {
+                color: #cfba82;
+                font-family: "DINPro-Bold";
+                font-size: 14px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin: 0px;
+            }
+        }
+        .select-btn:hover {
+            background-color: #cfba82;
+            p {
+                color: #ffffff;
+            }            
+        }
+        .select-btn.active {
+            outline: none;
+            background-color: #cfba82;
+            box-shadow: none;
+            p {
+                color: #ffffff;
+            }
+        }
+    }
+    .golf-town-container {
+        margin-bottom: 40px;
+        .golf-town-img {
+            img {
+                width: 100%;
+            }
+        }
+        .golf-town-text {
+            padding-top: 50px;
+            padding-left: 50px;
+            h1 {
+                color: #4a4a4a;
+                font-family: "DINPro-Bold";
+                font-size: 24px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin: 0px;
+            }
+            h2 {
+                color: #4a4a4a;
+                font-family: "DINPro-Bold";
+                font-size: 18px;
+                font-weight: 700;
+                margin: 0px;
+            }
+            ul {
+                margin-top: 40px;
+                list-style: none;
+                li {
+                    color: #4a4a4a;
+                    font-family: "DINPro-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+                li::before {
+                    content: "\2022"; 
+                    color: #cfba82; 
+                    font-weight: bold; 
+                    display: inline-block; 
+                    width: 1em; 
+                    margin-left: -2em; 
+                    margin-right: 1em;
+                  }
+            }
+            p {
+                margin-top: 30px;
+                color: #4a4a4a;
+                font-family: "DINPro-Regular";
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+    }
+    .download-btn-container {
+        position: relative;
+        margin-bottom: 50px;
+        .btn-item {
+            display: inline-block;
+            margin-right: 30px;
+        }
+        .know-more-btn {
+            width: 300px;
+            top: 28px;
+            position: relative;
+            display: inline-block;
+        }
+    }
+    .navbar-container {
+        margin-bottom: 20px;
+        
+        .navbar-group {
+            background: white;
+            box-shadow: 0 7px 22px rgba(0, 0, 0, 0.07);
+            width: max-content;
+        }
+        .select-nav {
+            background-color: #ffffff;
+            // width: 100%;
+            border: none;
+            padding: 0px;
+            .underline {
+                width: 330px;
+                height: 1px;
+                border: 1px solid rgba(74, 74, 74, 0.21);
+            }
+            p {
+                color: #4a4a4a;
+                font-family: "DINPro-Regular";
+                font-size: 14px;
+                font-weight: 400;
+                margin: 0px;
+                padding: 20px 0px;
+                text-transform: uppercase;
+            }
+        }
+        .select-nav:hover {
+            .underline {
+                border: 1px solid #cfba82;
+            }
+            p {
+                color: #cfba82;
+            }            
+        }
+        .select-nav.active {
+            outline: none;
+            box-shadow: none;
+            .underline {
+                border: 1px solid #cfba82;
+            }
+            p {
+                color: #cfba82;
+                font-family: "DINPro-Bold";
+                font-weight: 700;
+            }
+        }
+        .table-container {
+            margin-top: 50px;
+            width: 990px;
+            table {
+                background: rgba(207, 186, 130, 0.14);
+                box-shadow: -1px 2px 1px rgba(50,50,50,0.1);
+                border: none;
+            }
+            .table>thead {
+                background-color: #cfba82;
+                color: #ffffff;
+                font-family: "DINPro-Bold";
+                font-size: 14px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            .table th,td {
+                padding: 20px 0px;
+                padding-left: 60px;
+            }
+            .table th:first-child,td:first-child {
+                padding-left: 100px;
+            }
+            .table > tbody {
+                color: #4a4a4a;
+                font-family: "DINPro-Regular";
+                font-size: 14px;
+                font-weight: 400;
+            }
+            .table>tbody>tr:nth-child(odd) {
+                background-color: white;
+            }
+        }
+        @media (max-width:1200px) and (min-width: 768px) {
+            .select-nav .underline {
+                width: 250px;
+            }
+            .table-container {
+                width: 750px
+            }
+        }
+        @media (max-width: 768px){
+            .select-nav .underline {
+                width: 30vw;
+            }
+            .select-nav > p {
+                font-size: 1.8vw;
+            }
+            .table-container {
+                width: 90vw;
+                .table>thead {
+                    font-size: 1.8vw;
+                }
+                .table th,td {
+                    padding: 20px 0px;
+                    padding-left: 7vw;
+                }
+                .table th:first-child,td:first-child {
+                    padding-left: 15vw;
+                }
+                .table > tbody {
+                    font-size: 1.8vw;
+                }
+            }
+        }
+    }
+}

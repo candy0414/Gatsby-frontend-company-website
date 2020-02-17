@@ -1,0 +1,153 @@
+.offer-select-section.ar {
+    background-image: linear-gradient(177deg, rgba(246,242,234,1) 0%, rgba(243, 224, 171, 0.19) 100%);
+    direction: rtl;
+    text-align: right;
+    .title-container {
+        h1 {
+            font-family: "Tajawal-ExtraBold";
+            font-size: 35px;
+            font-weight: 700;
+        }
+    }
+    .select-btn-group {
+        .select-btn {
+            margin-left: 10px;
+            margin-right: 0px;
+            p {
+                font-family: "Noto-Kufi-Bold";
+                font-size: 14px;
+                font-weight: 700;
+                margin: 0px;
+            }
+        }
+        .select-btn:hover {
+            background-color: #cfba82;
+            p {
+                color: #ffffff;
+            }
+        }
+        .select-btn.active {
+            outline: none;
+            background-color: #cfba82;
+            box-shadow: none;
+            p {
+                color: #ffffff;
+            }
+        }
+    }
+    .golf-town-container {
+        margin-bottom: 40px;
+        .golf-town-img {
+            img {
+                width: 100%;
+            }
+        }
+        .golf-town-text {
+            padding-right: 50px;
+            padding-left: 0px;
+            h1 {
+                font-family: "Noto-Kufi-Bold";
+                font-size: 24px;
+                font-weight: 700;
+                margin: 0px;
+            }
+            h2 {
+                font-family: "Noto-Kufi-Bold";
+                font-size: 18px;
+                font-weight: 700;
+                margin: 0px;
+            }
+            ul {
+                li {
+                    font-family: "Noto-Kufi-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+                li::before {
+                    margin-right: -2em;
+                    margin-left: 1em;
+                }
+            }
+            p {
+                font-family: "Noto-Kufi-Regular";
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+    }
+    .download-btn-container {
+        .btn-item {
+            display: inline-block;
+            margin-left: 30px;
+            margin-right: 0px;
+        }
+    }
+    .navbar-container {
+
+        .select-nav:hover {
+            .underline {
+                border: 1px solid #cfba82;
+            }
+            p {
+                color: #cfba82;
+            }
+        }
+
+        .table-container {
+
+            .table>thead {
+                font-family: "Noto-Kufi-Bold";
+                font-size: 14px;
+                font-weight: 700;
+            }
+            .table th,td {
+                padding-right: 60px;
+                padding-left: 0px;
+            }
+            .table th:first-child,td:first-child {
+                padding-right: 100px;
+                padding-left: 0px;
+            }
+            .table > tbody {
+                font-family: "Noto-Kufi-Regular";
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+        @media (max-width:1200px) and (min-width: 768px) {
+            .select-nav .underline {
+                width: 250px;
+            }
+            .table-container {
+                width: 750px
+            }
+        }
+        @media (max-width: 768px){
+            .select-nav .underline {
+                width: 30vw;
+            }
+            .select-nav > p {
+                font-size: 1.8vw;
+            }
+            .table-container {
+                width: 90vw;
+                .table>thead {
+                    font-size: 1.8vw;
+                }
+                .table th,td {
+                    padding: 20px 0px;
+                    padding-right: 7vw;
+                    padding-left: 0vw;
+                }
+                .table th:first-child,td:first-child {
+                    padding-right: 15vw;
+                    padding-left: 0vw;
+                }
+                .table > tbody {
+                    font-size: 1.8vw;
+                }
+            }
+        }
+    }
+}

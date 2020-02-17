@@ -1,0 +1,45 @@
+.whyDamac-message-section.ar {
+    .img-container {
+        margin-left: 100px;
+        margin-right: 0px;
+    }
+    .text-container {
+        padding-top: 15px;
+        .chairman-title {
+            font-family: "Noto-Kufi-Bold";
+            font-size: 35px;
+            font-weight: 700;
+        }
+        .chairman-sub-title {
+            font-family: "Noto-Kufi-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+        }
+        .img-quote {
+            transform: scaleX(-1);
+        }
+        .chairman-content-header {
+             font-family: "Noto-Kufi-Regular";
+             font-size: 19px;
+             line-height: 35px;
+             font-weight: 400;
+         }
+        .chairman-content-text {
+            font-family: "Noto-Kufi-Regular", "DINPro-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+        .text-content {
+            margin-left: 0px;
+            margin-right: 15px;
+        }
+    }
+    @media (min-width: 1100px) and (max-width: 1400px) {
+        .img-container {
+            margin-right: 0px;
+            margin-left: 50px;
+        }
+    }
+}

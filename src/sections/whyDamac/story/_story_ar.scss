@@ -1,0 +1,24 @@
+.whyDamac-story-section.ar {
+    direction: rtl;
+    text-align: right;
+    .left-text {
+        font-family: "Noto-Kufi-Regular", "DINPro-Regular";
+        font-size: 24px;
+        font-weight: 400;
+        .bold-text {
+            font-family: "Tajawal-ExtraBold";
+            font-weight: 700;
+        }
+    }
+    .right-text {
+        font-family: "Noto-Kufi-Regular", "DINPro-Regular";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .bottom-text {
+        font-family: "Noto-Kufi-Regular", "DINPro-Regular";
+        font-size: 10px;
+        font-weight: 500;
+    }
+}

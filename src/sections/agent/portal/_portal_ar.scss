@@ -1,0 +1,26 @@
+.agent-portal-section.ar {
+    .portal-items-container {
+        .portal-item {
+            box-shadow: 0 12px 56px rgba(0, 0, 0, 0.09);
+            background-image: linear-gradient(124deg, #f3e0ab 0%, #c0aa71 100%);
+            padding: 34px 34px;
+            .text-container {
+                margin: -55px 50px 33px 80px;
+            }
+        }
+        .portal-item:first-child, .portal-item:nth-child(2n+1) {
+            margin-right: 0;
+            margin-left: 20px;
+        }
+        .portal-item:nth-child(2n) {
+            margin-left: 0;
+            margin-right: 20px;
+        }
+        @media only screen and (max-width: 1200px) {
+            .portal-item, .portal-item:first-child, .portal-item:nth-child(2n+1), .portal-item:nth-child(2n) {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}

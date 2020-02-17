@@ -1,0 +1,83 @@
+.whyDamac-management-section {
+    padding: 50px 0;
+    .management-container {
+        // overflow: hidden;
+
+        .management-title {
+            color: #000000;
+            font-family: "Didot-Bold";
+            font-size: 35px;
+            font-weight: 700;
+            letter-spacing: 0.63px;          
+        }
+        .management-sub-title {
+            color: #4a4a4a;
+            font-family: "DINPro-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;            
+        }
+        .management-item-container {
+            position: relative;
+            margin-top: 40px;
+        }
+        .management-item {
+            margin-right: 40px;
+            position: relative;
+            opacity: 0.4;
+            .management-item-footer {
+                display: none;
+                position: relative;
+                h1 {
+                    text-shadow: 0 0 46px #ffffff;
+                    color: #262522;
+                    font-family: "DINPro-Bold";
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 55px;
+                    text-transform: uppercase;
+                    margin: 20px 0;
+                }
+                p {
+                    color: #4a4a4a;
+                    font-family: "DINPro-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17px;
+                    margin: 0;
+                    position: absolute;
+                    top: 50px;
+                    width: max-content;
+                }
+            }
+        }
+        .slick-current {
+            .management-item {
+                opacity: 1;
+            }
+            .management-item-footer {
+                display: block;
+            }
+        }
+        .slider-btn-container {
+            margin-top: 30px;
+            button {
+                margin-right: 20px;
+                background: transparent;
+                outline: none;
+                border: none;
+                img {
+                    opacity: 0.5;
+                }
+                .left-arrow {
+                    transform: scaleX(-1);
+                }
+            }
+            button:hover {
+                img {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

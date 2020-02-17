@@ -1,0 +1,170 @@
+.community-section {
+    background-color: white;
+    padding-top: 30px;
+    position: relative;
+    margin: 0 auto;
+
+    .community-2002 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .community-2002 > h2 {
+        color: #cfba82;
+        font-family: "Didot-Bold";
+        font-weight: 700;
+        font-size: 75px;
+        background: -webkit-linear-gradient(#cfba82, #fff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transform: scale(1, 1.4);
+        -webkit-transform: scale(1, 1.4);
+        -moz-transform: scale(1, 1.4);
+        -ms-transform: scale(1, 1.4);
+        -o-transform: scale(1, 1.4);
+    }
+    .community-2002 p {
+        color: #000000;
+        font-family: "DINPro-Regular";
+        font-size: 22px;
+        max-width: 910px;
+        margin: 0 auto;
+        font-weight: 400;
+        line-height: 35px;
+    }
+    .community-2002 p:nth-child(3) {
+        margin-top: 20px
+    }
+    .community-2002 .as-of-date {
+        margin-top: 5px;
+        font-size: 12px !important;
+    }
+    .community-items {
+        .community-title p {
+            color: #000000;
+            font-family: "Didot-Bold";
+            font-size: 35px;
+            font-weight: 700;
+            margin-top: 40px;
+        }
+        .comm-item {
+            padding-right: 50px;
+            .community-item-img {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            h3 {
+                color: #262522;
+                font-size: 24px;
+                font-family: "DINPro-Bold";
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            .community-item-location {
+                color: #4a4a4a;
+                font-size: 14px;
+                font-family: "DINPro-Bold";
+                font-weight: 700;
+                line-height: 28px;
+            }
+            .community-item-explain {
+                color: #4a4a4a;
+                font-family: "DINPro-Regular";
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 28px;
+            }
+            .know-more-container {
+                margin-top: 14px;
+            }
+            a:hover {
+                .community-item-img img {
+                    opacity: 0.8;
+                }
+                h3 {
+                    color: #cfba82;
+                }
+                .know-more-container {
+                    opacity: 0.7;
+                }
+            }
+        }
+        #community-item-2 {
+            padding-top: 50px;
+        }
+    }
+
+    .know-more-container {
+        border: none;
+        border-top: 1px solid #cfba82;
+        max-width: 297px;
+        margin-top: 3vw;
+    }
+    .know-more-container {
+        p {
+            color: #cfba82;
+            font-size: 1.03vw;
+            font-weight: 700;
+            font-family: "DINPro-Bold";
+            line-height: 3.56vw;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+        img {
+            float: right;
+            transform: rotate(180deg);
+            display: inline-block;
+            padding-top: 1.3vw;
+        }
+    }
+
+    @media (max-width: 1200px) and (min-width: 992px) {
+        .community-2002 {
+            width: 700px
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .community-2002 {
+            padding: 20px;
+            p {
+                font-size: 16px;
+            }
+        }
+        .community-items {
+            margin-top: 15px;
+            .community-title {
+                padding: 20px;
+            }
+            .comm-item {
+                padding: 20px !important;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .know-more-container {
+            border: none;
+            border-top: 1px solid #cfba82;
+            width: 100%;
+            max-width: none;
+            margin-top: 6vw;
+        }
+        .know-more-container {
+            p {
+                color: #cfba82;
+                font-size: 3vw;
+                font-weight: 700;
+                line-height: 3.56vw;
+                text-transform: uppercase;
+                display: inline-block;
+                padding-top: 4vw;
+            }
+            img {
+                float: right;
+                display: inline-block;
+                padding-bottom: unset;
+                width: 5vw;
+            }
+        }
+    }
+}

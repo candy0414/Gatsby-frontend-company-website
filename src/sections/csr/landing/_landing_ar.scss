@@ -1,0 +1,15 @@
+.csr-landing-section.ar {
+    direction: rtl;
+    text-align: right;
+
+    .back-container {
+        background-image: linear-gradient(90deg, #666666 0%, #000000 100%);
+    }
+    .btn-container {
+        p {
+            margin-right: 10px;
+            margin-left: 0px;
+            font-family: "Noto-Kufi-Regular";
+        }
+    }
+}

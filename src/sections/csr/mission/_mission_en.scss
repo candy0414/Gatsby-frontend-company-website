@@ -1,0 +1,43 @@
+.csr-mission-section {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    p {
+        color: #4a4a4a;
+        font-family: "DINPro-Regular";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+    h1 {
+        color: #000000;
+        font-family: "Didot-Bold";
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: 0.63px;
+    }
+    h2 {
+        color: #000000;
+        font-family: "DINPro-Regular";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 33.33px;
+    }
+    img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .hussain-container {
+
+    }
+    .mission-container {
+        margin-top: 80px;
+    }
+    .social-container {
+        margin-top: 50px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        padding-top: 78vw;
+    }
+}

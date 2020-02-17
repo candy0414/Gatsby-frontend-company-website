@@ -1,0 +1,66 @@
+.csr-milestone-section.ar{
+    direction: rtl;
+    text-align: right;
+
+    .milestone-container {
+        overflow: hidden;
+
+        .milestone-title {
+            color: #ffffff;
+            font-family: "Noto-Kufi-Bold";
+            font-size: 35px;
+            font-weight: 700;
+            letter-spacing: 0.63px;         
+        }
+        .milestone-sub-title {
+            color: #ffffff;
+            font-family: "Noto-Kufi-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+        .milestone-item {
+            direction: rtl;
+            margin-right: 0;
+            margin-left: 160px;
+
+            .milestone-item-text {
+                margin-right: 80px;
+                margin-left: 0;
+                text-align: right;
+                position: relative;
+                h1 {
+                    font-family: "Tajawal-ExtraBold";
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 55px;
+                }
+                h2 {
+                    font-family: "Noto-Kufi-Regular";
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 46px;
+                }
+                p {
+                    font-family: "Noto-Kufi-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 22px;
+                }
+            }
+        }
+        .slider-btn-container {
+            float: left;
+            button {
+                margin-right: 20px;
+                margin-left: 0px;
+                .left-arrow {
+                    transform: scaleX(1);
+                }
+                .right-arrow {
+                    transform: scaleX(-1);
+                }
+            }
+        }
+    }
+}

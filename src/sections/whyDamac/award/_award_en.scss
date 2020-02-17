@@ -1,0 +1,110 @@
+.whyDamac-award-section {
+    background-image: linear-gradient(180deg, #666666 0%, #171615 100%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .title-container {
+        h1 {
+            color: #ffffff;
+            font-family: "Didot-Bold";
+            font-size: 35px;
+            font-weight: 700;
+            letter-spacing: 0.63px;
+            margin: 0;
+        }
+        p {
+            color: #ffffff;
+            font-family: "DINPro-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            margin: 0;
+            margin-top: 10px;
+        }
+    }
+    .award-slider-container {
+        position: relative;
+        margin-top: 80px;
+        overflow: hidden;
+        .award-item-flex{
+            display: flex !important;
+        }
+        .award-collection {
+            display: flex !important;
+            position: relative;
+            width: max-content !important;
+            .award-item {
+                position: relative;
+                background-image: url(../../../images/whyDamac/award.png);
+                background-repeat: no-repeat;
+                padding-left: 70px;
+                padding-top: 15px;
+                width: 360px;
+                min-width: 360px;
+                min-height: 165px;
+                max-height: 430px;
+                overflow: hidden;
+                h1 {
+                    color: #ffffff;
+                    font-family: "DINPro-Bold";
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 31px;
+                    text-transform: uppercase;
+                    margin: 0px;
+                }
+                p {
+                    color: #b2b2b2;
+                    font-family: "DINPro-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 23px;
+                    margin: 0px;
+                }
+                .year{
+                    font-size: 12px;
+                    color:#cfba82;
+                }
+            }
+        }
+        .slick-slide {
+            width: max-content;
+            margin-right: 200px;
+        }
+        .slick-track {
+            display: flex;
+        }
+    }
+    .timeline-container {
+        margin-top: 60px;
+        .events-wrapper {
+            margin: 0 !important;
+        }
+        div {
+            position: unset;
+        }
+        ul li {
+            display: none;
+        }
+        ul .button-back, .button-forward {
+            display: none;
+        }
+        .timeline-label {
+            color: #cfba82;
+            font-family: "Didot-Bold";
+            font-weight: 700;
+            font-size: 20px;
+            background: -webkit-linear-gradient(#cfba82, #e0cd9c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            top: 50px;
+            position: relative;
+        }
+        .horizontal-container {
+            color: #ffffff;
+            width: 100%;
+            height: 100px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+    }
+}

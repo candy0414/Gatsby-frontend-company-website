@@ -1,0 +1,16 @@
+.search-result-section.ar {
+    .result-container {
+        .result-item {
+            .result-text {
+                max-width: 600px;
+                margin-right: 30px;
+                margin-left: 0px;
+            }
+            @media (max-width: 768px){
+                .result-text {
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.loadmore-container {
+    margin: 30px 0;
+    text-align: center;
+    img {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    p {
+        display: inline-block;
+        color: #cfba82;
+        font-family: "DINPro-Bold";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 48px;
+        text-transform: uppercase;
+    }
+    p:hover {
+        color: #333;
+        cursor: pointer;
+    }
+    &.load-disabled {
+        display: none;
+    }
+}

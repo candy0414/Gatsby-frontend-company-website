@@ -1,0 +1,260 @@
+.around-world-section.ar {
+    direction: rtl;
+    text-align: right;
+
+    .around-world {
+        .around-slider {
+            .slick-dots {
+                right: 0;
+                left: unset;
+                text-align: right;
+            }
+        }
+        .damac-block {
+            background-image: linear-gradient(153deg, #666666 0%, #171615 100%);
+            h2 {
+                font-size: 50px;
+                font-family: "Noto-Kufi-Bold";
+                font-weight: 700;
+                color: white;
+                line-height: 44px;
+                margin-top: 37px;
+            }
+            h3 {
+                font-family: "Noto-Kufi-Bold";
+                color: #ffffff;
+                font-size: 35px;
+                line-height: 44px;
+            }
+        }
+        .location-title {
+            float: right;
+            h1 {
+                color: #cfba82;
+                font-family: "Tajawal-ExtraBold";
+                font-size: 70px;
+                font-weight: 700;
+                line-height: 79px;
+            }
+            h1:nth-child(2) {
+                font-size: 34px !important;
+            }
+        }
+        .damac-tower {
+            width: max-content;
+            position: relative;
+            float: left;
+            p {
+                color: #464545;
+                font-size: 14px;
+                font-family: "Noto-Kufi-Regular";
+                font-weight: 450;
+                padding-top: 20px;
+                height: 65px;
+            }
+        }
+        .paris-block {
+            width: max-content;
+            float: left;
+            position: relative;
+            top: 345px;
+            right: 155px;
+            left: unset;
+            p {
+                color: #464545;
+                font-size: 16px;
+                font-weight: 450;
+                font-family: "Noto-Kufi-Regular";
+                padding-top: 20px;
+                height: 65px;
+            }
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+        .location-title {
+            //right: 292px !important;
+            h1 {
+                font-size: 65px !important;
+            }
+        }
+        .paris-block {
+            right: 0;
+            left: auto !important;
+            img {
+                width: 370px;
+            }
+        }
+    }
+
+    @media (max-width: 992px) {
+        .around-world {
+            height: 820px;
+            background-position-y: center;
+
+            margin: 0;
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+
+            .around-slider {
+                height: max-content;
+                width: 95vw;
+                top: -305px;
+                right: 15px;
+                left: unset;
+                .slick-dots {
+                    right: 0;
+                    left: unset;
+                }
+            }
+
+            .damac-block {
+                width: 50vw;
+                height: 40vw;
+                background-image: linear-gradient(157deg, #666666 0%, #171615 100%);
+                padding: 4.25vw 3vw;
+                position: relative;
+                right: 15px;
+                left: unset;
+                top: 50px;
+                h2 {
+                    font-size: 7vw;
+                    font-weight: 700;
+                    color: white;
+                    line-height: 5.67vw;
+                }
+                h3 {
+                    color: #ffffff;
+                    font-size: 5vw;
+                    line-height: 5.67vw;
+                }
+                .know-more-container {
+                    margin-top: 8.5vw;
+                }
+            }
+            .location-title {
+                h1 {
+                    font-size: 65px !important;
+                }
+            }
+            .paris-block {
+                float: left;
+                right: 30vw;
+                left: unset;
+                img {
+                    width: 45vw;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .around-world {
+            margin: auto;
+            width: auto;
+            height: max-content;
+
+            .around-slider {
+                height: max-content;
+                width: auto;
+                top: 70px;
+                right: 0;
+                left: unset;
+                .slick-list {
+                    overflow: hidden !important;
+                    height: max-content;
+                    width: 100%;
+                }
+                .slick-dots {
+                    right: 0;
+                    left: unset;
+                    bottom: auto !important;
+                    top: 180px !important;
+                }
+            }
+            .damac-tower {
+                max-width: 45vw;
+                left: 1px;
+                right: unset;
+                img {
+                    width: 45vw;
+                }
+            }
+            .damac-block {
+                width: auto;
+                height: 40vw;
+                right: 0;
+                left: unset;
+                h2 {
+                    margin-top: 5px
+                }
+            }
+            .location-title {
+                top: 80px;
+                width: 40vw;
+                overflow: hidden;
+                display: inline-block;
+                h1 {
+                    font-size: 33px !important;
+                    line-height: 33px;
+                }
+                h1:nth-child(2) {
+                    font-size: 22px !important;
+                    line-height: 25px;
+                }
+            }
+            .paris-block {
+                float: right;
+                right: 0;
+                left: unset;
+                top: 5px;
+                width: 100%;
+                height: 525px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        .around-world {
+            .paris-block {
+                height: 385px;
+            }
+        }
+    }
+
+    .know-more-container {
+        p {
+            font-family: "Noto-Kufi-Regular";
+            float: right;
+        }
+        img {
+            float: left;
+            transform: rotate(180deg);
+            padding-top: 1.3vw;
+            padding-bottom: 0;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .know-more-container {
+            margin-top: 6vw;
+            p {
+                font-size: 2vw;
+                line-height: 3.56vw;
+                padding-top: 3vw;
+            }
+            img {
+                float: left;
+                padding-top: 3vw;
+                padding-bottom: 0;
+                width: 2.8vw;
+                margin-top: 22px;
+                line-height: 3.56vw;
+            }
+        }
+    }
+}

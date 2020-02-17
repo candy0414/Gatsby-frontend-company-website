@@ -1,0 +1,242 @@
+.landing-section {
+    background-color: white;
+    overflow: hidden;
+    padding: 33px 0 20px 20px;
+    &-title {
+        font-weight: bold;
+    }
+    margin: 0 auto;
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        // flex-wrap: wrap;
+        // justify-content: space-around;
+    }
+    .landing-text-flex {
+        width: 35vw !important;
+        display: flex;
+        .slick-list {
+            float: left;
+            .slick-slide {
+                visibility: hidden;
+                opacity: 0;
+                transition: opacity 0.3s, visibility 0.3s;
+                width: 35vw;
+            }
+            .slick-slide.slick-active.slick-current {
+                visibility: visible;
+                opacity: 1;
+                transition: opacity 0.3s, visibility 0.3s;
+            }
+        }
+    }
+    .landing-caption-container {
+        padding: 3.5vw 4vw 0 4vw;
+    }
+    .landing-caption-container {
+        h2 {
+            color: #262522;
+            font-family: "Didot-Bold";
+            font-size: 3vw;
+            font-weight: 700;
+            line-height: 3.5vw;
+        }
+    }
+    .landing-caption-content {
+        opacity: 0.7;
+        font-family: "DINPro-Regular";
+        color: #4a4a4a;
+        font-size: 1.03vw;
+        font-weight: 400;
+        line-height: 1.78vw;
+        display: block;
+        padding-right: 1.6px;
+        padding-top: 1.6px;
+    }
+    .slider-btn {
+        width: 20vw;
+        background-image: linear-gradient(133deg, #c0aa71 0%, #f3e0ab 100%);
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        p {
+            color: #ffffff;
+            font-family: "DINPro-Bold";
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 15px 0;
+        }
+        &:hover, *:hover {
+            background: #c0aa71;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+    .progressbar-container {
+        margin-top: 20px;
+    }
+    .progressbar-container > p {
+        color: #262522;
+        font-family: "DINPro-Bold";
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .landing-progressbar {
+        margin: 0px;
+        max-width: 400px;
+        height: 2px;
+        width: 100%;
+        padding: 0px;
+    }
+    .mobile-landing {
+        display: none;
+    }
+    .mobile-landing {
+        display: none;
+    }
+    .landing-item {
+        cursor: pointer;
+    }
+    @media only screen and (max-width: 768px) {
+        background-color: white;
+        overflow: hidden;
+        padding: 20px 0px;
+        .mobile-landing {
+            display: block;
+            padding: 0px;
+        }
+        .desktop-landing {
+            display: none;
+        }
+        .landing-section {
+
+        }
+        .mobile-landing > .container:first-child {
+            padding: 0px;
+            display: flex;
+        }
+        .mobile-landing{
+            .landing-text-flex {
+                width: 95vw !important;
+                .slick-list{
+                    .slick-slide{
+                        width: 95vw !important;
+                    }
+                }
+            }
+        }
+        .landing-caption-container {
+            padding: 3.5vw 8vw 0 8vw;
+        }
+        .landing-caption-container {
+            h2 {
+                color: black;
+                font-size: 8.2vw;
+                font-weight: 720;
+                line-height: 10vw;
+                padding-top: 7vw;
+            }
+        }
+        .landing-caption-content {
+            opacity: 1;
+            color: black;
+            font-size: 3vw;
+            font-weight: 400;
+            line-height: 5vw;
+            display: block;
+            padding-top: 5vw;
+        }
+        .slider-btn {
+            width: 55vw;
+        }
+        .progressbar-container {
+            margin-top: 20px;
+        }
+        .progressbar-container > p {
+            color: #4a4a4a;
+            font-size: 5vw;
+            padding: 0px;
+            margin: 0px;
+            font-weight: 700;
+        }
+        .landing-progressbar {
+            margin: 0px;
+            max-width: 800px;
+            height: 3px;
+            width: 100%;
+            padding: 0px;
+        }
+    }
+    .img-slider-container1 {
+        overflow: hidden;
+        .landing-slider-container {
+            overflow: hidden;
+            width: 50vw;
+            .slick-track {
+                display: flex;
+            }
+            .landing-item {
+                display: inline;
+                background: #c0aa71;
+                margin-right: 50vw;
+                .landing-img-1 {
+                    width: 50vw;
+                }
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            width: 75vw;
+            .landing-slider-container {
+                width: 75vw;
+                .landing-item {
+                    margin-right: 75vw;
+                    .landing-img-1 {
+                        width: 75vw;
+                    }
+                }
+            }
+        }
+    }
+    .img-slider-container2 {
+        overflow: hidden;
+        width: 6vw;
+        padding-top: 12vw;
+        .landing-slider-container {
+            overflow: hidden;
+            width: 25vw;
+            .slick-track {
+                display: flex;
+            }
+            .landing-item {
+                display: inline;
+                background: #c0aa71;
+                margin-right: 25vw;
+                .landing-img-1 {
+                    width: 25vw;
+                }
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            width: 20vw;
+            padding-top: 8vw;
+            padding-left: 6vw;
+            .landing-slider-container {
+                width: 60vw;
+                .landing-item {
+                    margin-right: 60vw;
+                    .landing-img-1 {
+                        width: 60vw;
+                    }
+                }
+            }
+        }
+    }
+    .landing-caption-container {
+        width: 40vw;
+        @media only screen and (max-width: 768px) {
+            width: unset
+        }
+    }
+}

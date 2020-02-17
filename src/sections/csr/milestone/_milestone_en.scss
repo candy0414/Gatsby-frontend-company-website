@@ -1,0 +1,95 @@
+.csr-milestone-section {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-image: linear-gradient(174deg, #666666 0%, #171615 100%);
+    .milestone-container {
+        overflow: hidden;
+
+        .milestone-title {
+            color: #ffffff;
+            font-family: "Didot-Bold";
+            font-size: 35px;
+            font-weight: 700;
+            letter-spacing: 0.63px;         
+        }
+        .milestone-sub-title {
+            color: #ffffff;
+            font-family: "DINPro-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            margin-top: 50px;         
+        }
+        .milestone-item-container {
+            position: relative;
+            margin-top: 40px;
+        }
+        .milestone-item {
+            margin-right: 140px;
+            display: flex !important;
+            position: relative;
+            opacity: 0.4;
+            .milestone-item-img {
+                display: inline-block;
+            }
+            .milestone-item-text {
+                display: inline-block;
+                max-width: 400px;
+                margin-left: 80px;
+                /*top: -56px;*/
+                position: relative;
+                h1 {
+                    color: #ffffff;
+                    font-family: "DINPro-Bold";
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 55px;
+                    text-transform: uppercase;
+                }
+                h2 {
+                    color: #b2b2b2;
+                    font-family: "DINPro-Regular";
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 46px;
+                }
+                p {
+                    color: #ffffff;
+                    font-family: "DINPro-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 22px;                    
+                }
+            }
+        }
+        .slick-current {
+            .milestone-item {
+                opacity: 1;
+            }
+        }
+        .slick-track {
+            display: flex;
+        }
+        .slider-btn-container {
+            margin-top: 50px;
+            float: right;
+            button {
+                margin-left: 20px;
+                background: transparent;
+                outline: none;
+                border: none;
+                img {
+                    opacity: 0.5;
+                }
+                .left-arrow {
+                    transform: scaleX(-1);
+                }
+            }
+            button:hover {
+                img {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

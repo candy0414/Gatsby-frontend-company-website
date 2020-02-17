@@ -1,0 +1,15 @@
+.know-more-container.ar {
+    direction: rtl;
+    text-align: right;
+    p {
+        font-family: "Noto-Kufi-Regular", "DINPro-Bold";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 48px;
+        float: right;
+    }
+    img {
+        float: left;
+        transform: rotate(180deg);
+    }
+}

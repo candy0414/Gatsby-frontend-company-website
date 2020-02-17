@@ -1,0 +1,22 @@
+.landing-item-container {
+    width: 245px;
+    display: inline-block;
+    div {
+        border: none;
+        border-bottom: 2px solid #e8d5a1;
+        h1 {
+            color: #cfba82;
+            font-family: "Bodoni Svty Two ITC TT";
+            font-size: 35px;
+            font-weight: 300;
+        }
+    }
+    p {
+        margin-top: 10px;
+        color: #000000;
+        font-family: "DINPro-Medium";
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;                
+    }
+}

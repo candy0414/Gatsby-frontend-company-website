@@ -1,0 +1,25 @@
+
+
+.side-bar-menu.ar {
+  transform: translateX(-100%);
+
+    direction: rtl;
+    text-align: right;
+
+    left: 0;
+    box-shadow: 7px 0px 20px 1px rgba(0, 0, 0, 0.19);
+    .sidebar-item {
+        p {
+            font-family: "Noto-Kufi-Regular";
+            font-size: 9px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .sidebar-item {
+            p {
+                font-family: "Noto-Kufi-Regular";
+                font-size: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.construction-section.ar {
+    direction: rtl;
+    text-align: right;
+
+    .construction-container {
+
+        .construction-title {
+            font-family: "Noto-Kufi-Bold";
+            font-size: 35px;
+            font-weight: 700;
+        }
+        .construction-item {
+            margin-left: 40px;
+            margin-right: 0px;
+        }
+        .slider-btn-container {
+            button {
+                margin-right: 20px;
+                margin-left: 0;
+                float: left;
+
+                .left-arrow {
+                    transform: scaleX(1);
+                }
+                .right-arrow {
+                    transform: scaleX(-1);
+                }
+            }
+        }
+    }
+}

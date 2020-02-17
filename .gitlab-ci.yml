@@ -1,0 +1,16 @@
+image: node:latest
+
+cache:
+  paths:
+    - node_modules/
+
+preview:
+  stage: deploy
+  script:
+    - rm ./package-lock.json
+    - npm install
+    - npm install -g surge
+    - SLUG=$(echo ${CI_BUILD_REF_NAME} | sed 's/[^a-zA-Z0-9\-_]/-/g ; s/-\+/-/g')
+    - ./node_modules/.bin/gatsby build --prefix-paths
+    -  cp public/index.html public/200.html
+    - surge -p public/ --domain  damac-${SLUG}.surge.sh

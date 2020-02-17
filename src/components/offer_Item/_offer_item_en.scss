@@ -1,0 +1,107 @@
+.offer-item {
+    max-width: 370px;
+    width: 370px;
+    .item-img-container {
+        .item-image {
+            height: 305px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: #f0f0f0;
+        }
+        .img-text {
+            background-image: linear-gradient(228deg, #666666 0%, #171615 100%);
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 10px;
+            height: 53px;
+            p {
+                display: inline;
+                margin: 0 2px
+            }
+        }
+
+        .img-text-regular {
+            color: #ffffff;
+            font-family: "DINPro-Bold";
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 33px;
+        }
+        .img-text-bold {
+            color: #ffffff;
+            font-family: "DINPro-Regular";
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 33px;
+        }
+    }
+    .item-text-container {
+        text-align: left;
+        min-height: 165px;
+        h1 {
+            color: #000000;
+            font-family: "DINPro-Bold";
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 33.33px;
+            text-transform: uppercase;
+            padding-top: 0px;
+            padding-bottom: 20px;
+            height: 86px;
+            display: flex;
+        }
+        p {
+            color: #4a4a4a;
+            font-family: "DINPro-Medium";
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+            padding-bottom: 20px;
+            display: flex;
+        }
+    }
+    a:hover {
+        text-decoration: none;
+        .img-text {
+            background-image: linear-gradient(228deg, #cfbb84 0%, #cfba82 100%);
+        }
+        .know-more-container {
+            opacity: 0.6;
+        }
+    }
+    @media only screen and (max-width: 1200px) {
+        & {
+            max-width: 301px;
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        & {
+            max-width: 230px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .item-image{
+            height:550px;
+        }
+        .text-container{
+            .item-content{
+                height:auto;
+            }
+        }
+        & {
+            max-width: 100%;
+            width:100%;
+        }
+    }
+
+    @media only screen and (max-width: 402px) {
+        .item-image {
+            height: 311px;
+        }
+    }
+}

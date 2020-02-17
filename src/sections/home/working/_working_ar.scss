@@ -1,0 +1,286 @@
+.working-section.ar {
+    direction: rtl;
+    text-align: right;
+
+    .career-block {
+        margin-left: 100px;
+        margin-right: 0;
+        h3 {
+            font-family: "Noto-Kufi-Bold";
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 58px;
+        }
+        h2 {
+            font-family: "Noto-Kufi-Bold";
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 58px;
+        }
+    }
+    .quote-block {
+        .photo-name-container {
+            /*width:100%;
+            float:right;*/
+            img {
+                float: right;
+            }
+            h3 {
+                font-family: "Noto-Kufi-Bold";
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 29px;
+                padding-right: 28px;
+                padding-left: 0;
+            }
+        }
+        .quote-container {
+            float: right;
+            direction: rtl;
+            .img-quote {
+                width: max-content;
+                margin: 0px;
+                padding: 0px;
+            }
+            .img-quote img {
+                transform: rotate(180deg);
+            }
+            .quote-text {
+                float: left;
+                .quote-title {
+                    font-family: "Noto-Kufi-Bold";
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 36px;
+                }
+                .quote-content {
+                    font-family: "Noto-Kufi-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+        .career-title {
+            float: right;
+            font-family: "Noto-Kufi-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+        }
+    }
+    .life-block {
+        .life-bottom {
+            .life-text {
+                padding-right: 15px;
+                padding-left: 0;
+                font-family: "Noto-Kufi-Regular";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 17px;
+            }
+            /*.btn-play {
+                transform: rotate(180deg);
+            }*/
+        }
+    }
+    .testimonial-2-block {
+        float: left;
+        margin-left: 80px;
+        margin-right: 0;
+    }
+    .testimonial-1-block {
+        float: right;
+        margin-right: 50px;
+        margin-left: 0;
+    }
+    .slide-item {
+        /*margin-right: -50px;*/
+    }
+    .know-more-container > a {
+        p {
+            font-family: "Noto-Kufi-Regular";
+            float: right;
+        }
+        img {
+            float: left;
+            transform: none;
+            /*padding-top: 1.3vw;
+            padding-bottom: 0;*/
+        }
+    }
+
+    @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+        .working-section {
+            .testimonial-1-block {
+                margin-right: 10px;
+                margin-left: 0;
+            }
+            .testimonial-2-block {
+                margin-right: 10px;
+                margin-left: 0;
+            }
+            .career-block {
+                margin-left: 10px;
+                margin-right: 0;
+            }
+            .life-block {
+                margin-right: 10px;
+                margin-left: 0;
+            }
+        }
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1024px) {
+        .career-block {
+            float: right;
+            margin: 0 !important;
+            width: 90% !important;
+            height: 230px !important;
+        }
+        .testimonial-2-block {
+            float: right;
+            margin: 0 !important;
+            width: 90% !important;
+        }
+        .testimonial-1-block, .life-block {
+            float: left;
+            margin: 0 !important;
+            width: 90% !important;
+            overflow: hidden;
+        }
+        .quote-text {
+            width: 75% !important;
+            .quote-content {
+                font-size: 12px !important;
+            }
+        }
+        .desktop-working {
+            margin-top: 15px
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        background-image: linear-gradient(177deg, rgba(192, 170, 113, 0.32) 0%, rgba(243, 224, 171, 0.16) 100%);
+        .mobile-working {
+            display: block;
+            .testimonial-2-block {
+                &.container {
+                    margin-left: 0;
+                    margin-right: 50px;
+                }
+                .container, .row {
+                    margin-left: unset !important;
+                    margin-right: unset !important;
+                }
+            }
+        }
+        .career-block {
+            float: right;
+            margin-left: 100px !important;
+            margin-right: 0 !important;
+            h3 {
+                font-size: 5.4vw;
+                line-height: 8vw;
+            }
+            h2 {
+                font-size: 7.5vw;
+                line-height: 8vw;
+            }
+        }
+        .quote-block {
+            height: 600px;
+            width: 65vw !important;
+            overflow: hidden;
+            .photo-name-container {
+                img {
+                    width: 25vw !important;
+                }
+                h3 {
+                    font-size: 5vw;
+                    line-height: 5vw;
+                    padding-right: 3vw;
+                    padding-left: 0;
+                    top: 2.5vw;
+                }
+            }
+            .quote-container {
+                display: flex;
+                margin-top: 2vw;
+                .img-quote img {
+                    width: 5vw;
+                }
+                .quote-text {
+                    display: block;
+                    width: 65vw;
+                    float: left;
+                    margin: 0px;
+                    .quote-title {
+                        text-shadow: 0 0 46px #ffffff;
+                        color: #262522;
+                        font-family: "Noto-Kufi-Bold";
+                        font-size: 2.3vw;
+                        font-weight: 700;
+                        line-height: 3vw;
+                        text-transform: uppercase;
+                    }
+                    .quote-content {
+                        text-shadow: 0 0 3vw #ffffff;
+                        font-size: 2.7vw;
+                        line-height: 3vw;
+                    }
+                }
+            }
+            .career-title {
+                font-size: 1.8vw;
+                line-height: 1.9vw;
+            }
+        }
+        .life-block {
+            margin-top: 12px;
+            .img-container .img-life {
+                width: 65vw;
+            }
+            .life-bottom {
+                margin-top: 1.2vw;
+                .btn-play {
+                    display: inline;
+                }
+                .life-text {
+                    display: inline;
+                    padding-right: 15px;
+                    padding-left: 0;
+                    margin: 0px;
+                    color: #4a4a4a;
+                    font-family: "Noto-Kufi-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17px;
+                }
+            }
+        }
+        .know-more-container > a {
+            p {
+                font-size: 3vw;
+                line-height: 3.56vw;
+                padding-top: 4vw;
+            }
+            > img {
+                float: left;
+                padding-top: 1vw;
+                padding-bottom: 0;
+            }
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .quote-block {
+            height: 270px;
+            width: 65vw !important;
+            overflow: hidden;
+        }
+    }
+    @media only screen and (max-width: 480px) {
+        .quote-block {
+            height: 265px;
+            width: 60vw !important;
+        }
+    }
+}

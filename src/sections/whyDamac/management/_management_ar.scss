@@ -1,0 +1,53 @@
+.whyDamac-management-section.ar {
+    direction: rtl;
+    text-align: right;
+    .management-container {
+        .management-item-flex {
+        }
+        .slick-slide {float:right}
+        .management-title {
+            font-family: "Noto-Kufi-Bold";
+            font-size: 35px;
+            font-weight: 700;
+        }
+        .management-sub-title {
+            font-family: "Noto-Kufi-Regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+        }
+        .management-item {
+
+            .management-item-footer {
+                margin-right: 40px;
+                text-align: right;
+                h1 {
+                    font-family: "Tajawal-Bold";
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 55px;
+                }
+                p {
+                    font-family: "Noto-Kufi-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17px;
+                    right: 0;
+                }
+            }
+        }
+
+        .slider-btn-container {
+            button {
+                margin-right: 0px;
+                margin-left: 20px;
+                .left-arrow {
+                    transform: scaleX(1);
+                }
+                .right-arrow {
+                    transform: scaleX(-1);
+                }
+            }
+        }
+    }
+}

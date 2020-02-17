@@ -1,0 +1,123 @@
+.offer-register-section.ar {
+    direction: rtl;
+    text-align: right;
+
+    .title-container {
+        h1 {
+            font-family: "Tajawal-ExtraBold";
+            font-size: 35px;
+            font-weight: 700;
+        }
+        P {
+            font-family: "Tajawal-Medium";
+            font-size: 14px;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+    }
+    .input-container {
+        .input-select-div:after {
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            left: 13px;
+            right: unset;
+        }
+        .text-input {
+            font-family: "Noto-Kufi-Bold";
+            font-size: 14px;
+            height: 20px;
+            padding-right: 20px;
+            padding-left: 0px;
+        }
+        .text-input::placeholder {
+            color: #cfba82;
+            font-family: "Noto-Kufi-Bold";
+            font-size: 14px;
+            font-weight: 700;
+        }
+        .title-select{
+            font-family: "Noto-Kufi-Bold";
+            font-size: 14px;
+        }
+        .mobile-input {
+            p {
+                font-family: "Noto-Kufi-Bold";
+                font-size: 14px;
+                font-weight: 700;
+            }
+            ::placeholder {
+                font-family: "Noto-Kufi-Bold";
+                font-size: 14px;
+                font-weight: 700;
+            }
+            input {
+                font-family: "Noto-Kufi-Bold";
+                height: 20px;
+                font-size: 14px;
+            }
+            .prefix-number {
+                border-radius: 2px 2px 0 0;
+            }
+            .main-number {
+                border-radius: 0 0 2px 2px;
+                border-right: none;
+                border-left: 1px solid #d0bb84;;
+            }
+        }
+        .input-item {
+            margin-right: 0px;
+            margin-bottom: 10px;
+            width: 302px;
+            height: 53px;
+        }
+        .mobile-title {
+            p {
+                font-family: "Noto-Kufi-Bold";
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+    }
+    .radio-btn-container {
+        .radio-btn {
+            margin-left: 60px;
+            margin-right: 0px;
+        }
+        input {
+            margin: 0px;
+            display: inline-block;
+            position: absolute;
+            top: 4px;
+        }
+        label {
+            font-family: "Noto-Kufi-Regular";
+            font-size: 12px;
+            font-weight: 400;
+            padding-right: 25px;
+            padding-left: 0px;
+        }
+        a {
+            font-size: 12px;
+            font-family: "Noto-Kufi-Bold";
+            font-weight: 700;
+            padding-right: 5px;
+            padding-left: 0px;
+        }
+    }
+    .submit-btn-container {
+        .submit-btn {
+            background: linear-gradient(227deg, #c0aa71 0%, #f3e0ab 100%);
+        }
+        p {
+            font-family: "Noto-Kufi-Bold";
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+    .register-item {
+        margin-left: 80px;
+        margin-right: unset;
+    }
+}

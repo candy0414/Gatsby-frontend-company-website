@@ -1,0 +1,31 @@
+.caption-section.ar {
+    direction: rtl;
+    text-align: right;
+    background: linear-gradient(90deg, #666666 0%, #000000 100%);
+
+    h1 {
+        font-family: "Noto-Kufi-Bold";
+        font-size: 110px;
+        font-weight: 700;
+        letter-spacing: 1.06px;
+    }
+    h3 {
+        font-family: "Noto-Kufi-Bold";
+        font-size: 35px;
+        font-weight: 700;
+        top: -26px
+    }
+    @media only screen and (max-width: 768px) {
+        & {
+            padding-bottom: 15px;
+        }
+        h1 {
+            font-size: 14.3vw;
+            padding: 20px 0 0;
+        }
+        h3{
+            font-size: 4.56vw;
+            padding: 10px 0 0;
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.brand-section {
+    background-color: white;
+    padding-top: 20px;
+    position: relative;
+    margin: 0 auto;
+
+    .brands-title p {
+        color: #000000;
+        font-family: "Didot-Bold";
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 40px;
+    }
+
+    .shape-row {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+
+    .brand-partners {
+        padding-bottom: 60px;
+        .row {   
+            .brand-shape {
+                border: 1px solid rgba(207, 186, 130, 0.51);
+                height: 160px;
+                position: relative;
+                padding: 0px;
+                .vertical-center {
+                    margin: 0;
+                    position: absolute;
+                    top: 50%;
+                    width: 100%;
+                    -ms-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    img {
+                        display: block;
+                        margin: 0 auto;
+                        max-width: 85%;
+                    }
+                    @media (max-width:992px) {
+                        img {
+                            max-width: 65%;
+                        }
+                    }
+                }
+                &:hover {
+                    background-color: #cfba82;
+                }
+            }
+            .text-shape {
+                background: #cfba82;
+                .vertical-center {
+                    h2 {
+                        color: #ffffff;
+                        font-size: 35px;
+                        font-weight: 700;
+                        font-family: "Didot-Bold";
+                        line-height: 36px;
+                        display: block;
+                        margin: 0 35px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width:1500px)
+    {
+        .brand-partners {
+            width: 1200px;
+            margin: 0 auto;
+        }
+    }
+    @media (max-width:1500px) and (min-width:1200px)
+    {
+        .brand-partners {
+            width: 1200px;
+            margin: 0 auto;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .brand-partners {
+            .shape-row {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            .row {
+                .text-shape {
+                    .vertical-center {
+                        h2 {
+                            font-size: 26px;
+                            margin: 0 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

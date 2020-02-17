@@ -1,0 +1,70 @@
+.community-section.ar {
+    direction: rtl;
+    text-align: right;
+
+    .community-2002 > h2 {
+        font-family: "Tajawal-ExtraBold";
+        font-size: 75px;
+    }
+    .community-2002 p {
+        font-family: "Noto-Kufi-Regular";
+        font-size: 24px;
+    }
+    .community-items {
+        .community-title p {
+            font-family: "Noto-Kufi-Bold";
+            font-size: 35px;
+            font-weight: 700;
+        }
+        .comm-item {
+            padding-left: 50px;
+            padding-right: 16px;
+            h3 {
+                font-size: 24px;
+                font-family: "Tajawal-ExtraBold";
+                font-weight: 700;
+            }
+            .community-item-location {
+                font-size: 13px;
+                font-family: "Noto-Kufi-Regular";
+                font-weight: 700;
+                line-height: 28px;
+            }
+            .community-item-explain {
+                font-family: "Noto-Kufi-Regular";
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 28px;
+            }
+        }
+    }
+
+    .know-more-container {
+        p {
+            font-family: "Noto-Kufi-Regular";
+            float: right;
+        }
+        img {
+            float: left;
+            transform: none;
+            display: inline-block;
+            padding-bottom: 1.3vw;
+            padding-top: 0;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .know-more-container {
+            p {
+                font-size: 3vw;
+                line-height: 3.56vw;
+                padding-top: 4vw;
+            }
+            img {
+                float: left;
+                padding-top: unset;
+                padding-bottom: 0;
+            }
+        }
+    }
+}

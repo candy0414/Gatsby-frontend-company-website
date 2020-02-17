@@ -1,0 +1,303 @@
+.around-world-section {
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+
+    .around-world {
+        background-image: url(../../../images/home/worldmap.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: contain;
+        margin-top: 35px;
+        height: 820px;
+        max-width: 1000px !important;
+
+        .around-slider {
+            height: 820px;
+            top: -270px;
+            .slick-list {
+                height: 820px;
+            }
+            .slick-dots {
+                bottom: 180px !important;
+                width: 355px;
+                left: 0;
+                text-align: left;
+            }
+        }
+        .damac-block {
+            width: 419px;
+            height: 295px;
+            background-image: linear-gradient(207deg, #666666 0%, #171615 100%);
+            padding: 15px 60px;
+            position: relative;
+            top: 50px;
+            z-index: 15;
+            h2 {
+                font-size: 50px;
+                font-family: "Didot-Bold";
+                font-weight: 700;
+                color: white;
+                line-height: 44px;
+                margin-top: 37px;
+            }
+            h3 {
+                font-family: "Didot-Bold";
+                color: #ffffff;
+                font-size: 35px;
+                line-height: 44px;
+            }
+        }
+        .location-title {
+            position: relative;
+            top: 345px;
+            width: max-content;
+            h1 {
+                color: #cfba82;
+                font-family: "Didot-Bold";
+                font-size: 75px;
+                font-weight: 700;
+                line-height: 79px;
+            }
+            h1:nth-child(2) {
+                background: -webkit-linear-gradient(#cfba82, #f9f3e3);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size: 55px !important;
+            }
+        }
+        .damac-tower {
+            width: max-content;
+            position: relative;
+            float: right;
+            p {
+                color: #464545;
+                font-size: 14px;
+                font-family: "DINPro-Regular";
+                font-weight: 450;
+                padding-top: 20px;
+            }
+        }
+        .paris-block {
+            width: max-content;
+            float: right;
+            position: relative;
+            top: 157px;
+            left: 190px;
+            p {
+                color: #464545;
+                font-size: 16px;
+                font-weight: 450;
+                font-family: "DINPro-Regular";
+                padding-top: 20px;
+            }
+            .item-image {
+                height: 305px;
+                width: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+        .location-title {
+            h1 {
+                font-size: 65px !important;
+            }
+        }
+        .paris-block {
+            left: 240px;
+            img {
+                width: 370px;
+            }
+        }
+    }
+
+    @media (max-width: 992px) {
+        .around-world {
+            height: 820px;
+            background-position-y: center;
+            margin: 0;
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+
+            .around-slider {
+                height: max-content;
+                width: 95vw;
+                top: -305px;
+                left: 15px;
+                .slick-dots {
+                    left: 0;
+                }
+            }
+
+            .damac-block {
+                width: 50vw;
+                height: 40vw;
+                background-image: linear-gradient(207deg, #666666 0%, #171615 100%);
+                padding: 4.25vw 3vw;
+                position: relative;
+                left: 15px;
+                top: 50px;
+                h2 {
+                    font-size: 7vw;
+                    font-weight: 700;
+                    color: white;
+                    line-height: 5.67vw;
+                }
+                h3 {
+                    color: #ffffff;
+                    font-size: 5vw;
+                    line-height: 5.67vw;
+                }
+                .know-more-container {
+                    margin-top: 8.5vw;
+                }
+            }
+            .location-title {
+                h1 {
+                    font-size: 65px !important;
+                }
+            }
+            .paris-block {
+                float: right;
+                left: 30vw;
+                img {
+                    width: 45vw;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .around-world {
+            margin: auto;
+            width: auto;
+            height: max-content;
+
+            .around-slider {
+                height: max-content;
+                width: auto;
+                top: 70px;
+                left: 0;
+                .slick-list {
+                    overflow: hidden !important;
+                    height: max-content;
+                    width: 100%;
+                }
+                .slick-dots {
+                    left: 0;
+                    bottom: auto !important;
+                    top: 180px !important;
+                }
+            }
+            .damac-tower {
+                max-width: 45vw;
+                right: 1px;
+                img {
+                    width: 45vw;
+                }
+            }
+            .damac-block {
+                width: auto;
+                height: 40vw;
+                left: 0;
+                h2 {
+                    margin-top: 5px
+                }
+            }
+            .location-title {
+                top: 80px;
+                width: 40vw;
+                overflow: hidden;
+                display: inline-block;
+                h1 {
+                    font-size: 33px !important;
+                    line-height: 33px;
+                }
+                h1:nth-child(2) {
+                    font-size: 22px !important;
+                    line-height: 25px;
+                }
+            }
+            .paris-block {
+                float: left;
+                left: 0;
+                top: 5px;
+                width: 100%;
+                height: 525px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        .around-world {
+            .paris-block {
+                height: 385px;
+            }
+        }
+    }
+
+    @media (max-width: 1200px) and (min-width: 768px) {
+        .around-world {
+            background-image: url(../../../images/home/worldmap.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+        }
+    }
+
+    .know-more-container {
+        border: none;
+        border-top: 1px solid #cfba82;
+        max-width: 297px;
+        margin-top: 3vw;
+        p {
+            color: #cfba82;
+            font-size: 1.03vw;
+            font-weight: 700;
+            font-family: "DINPro-Bold";
+            line-height: 3.56vw;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+        img {
+            float: right;
+            display: inline-block;
+            padding-bottom: 1.3vw;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .know-more-container {
+            border: none;
+            border-top: 1px solid #cfba82;
+            width: 100%;
+            max-width: none;
+            margin-top: 6vw;
+            p {
+                color: #cfba82;
+                font-size: 2vw;
+                font-weight: 700;
+                line-height: 3.56vw;
+                text-transform: uppercase;
+                display: inline-block;
+                padding-top: 3vw;
+            }
+            img {
+                float: right;
+                display: inline-block;
+                padding-bottom: 3vw;
+                width: 2.8vw;
+                margin-top: 22px;
+                line-height: 3.56vw;
+            }
+        }
+    }
+}

@@ -1,0 +1,419 @@
+{
+    "header":{
+        "projects": "مشاريع",
+        "offers": "عروضات",
+        "mortgage": "الرهن العقاري",
+        "why": "لماذا داماك",
+        "about": "عن داماك",
+        "chairman": "رسالة الرئيس",
+        "csr": "CSR",
+        "hotels": "فنادق ومنتجعات",
+        "enquire": "استفسر الان",
+        "login": "وكيل",
+        "hello": "مرحبا داماك",
+        "agent": "صفحة الوكلاء",
+        "search": "إبحث"
+    },
+    "side_bar": {
+        "enquire": "استفسر الان",
+        "call": "مكالمة",
+        "whatsapp": "واتساب",
+        "contacts": "جهات الاتصال"
+    },
+    "footer": {
+        "sitemap": "خريطة الموقع",
+        "term": "شروط وأحكام",
+        "cookie": "سياسة ملفات الارتباط",
+        "privacy": "سياسة الخصوصية",
+        "legal": "الوثائق القانونية",
+        "rent": "إيجار",
+        "invester": "المستثمرون",
+        "media": "إعلام",
+        "press": "تصريحات صحفيه",
+        "video": "معرض الفيديو",
+        "tour": "جولات 3D",
+        "career": "وظائف",
+        "contact": "الإتصال بنا",
+        "subscribe": "إنضم الى",
+        "exclusive": "العروضات الحصرية",
+        "email": "البريد الإلكتروني"
+    },
+    "home":{            
+        "landing": {
+            "know_more": "اقرأ المزيد"
+        },
+        "community": {
+            "caption": "مجتمعنا",
+            "know_more": "اقرأ المزيد",
+            "damac": "داماك",
+            "aroundWorld": "حول العالم",
+            "view_project": "عرض المشاريع"
+        },
+        "brand": {
+            "brand_partner": "شركاء علامتنا التجارية"
+        },
+        "news": {
+            "title": "داماك في الأخبار"
+        },
+        "working": {
+            "working_at": "العمل في",
+            "damac": "داماك",
+            "careers": "الوظائف",
+            "lifeAtDamac": "الحياة في داماك"
+        }
+    },
+    "projects": {
+        "caption": {
+            "header": "مشاريع",
+            "content": "إكتشف منازل أحلامك"
+        },
+        "filter": {
+            "filter": "التحكم بالبحث",
+            "reset": "إعادة التحكم",
+            "search": "إبحث",
+            "type": "نوع المشروع",
+            "buy": "شراء",
+            "rent":"إيجار",
+            "country": "البلد",
+            "city": "المدنية",
+            "area": "المنطقة",
+            "bedroom": "غرف نوم",
+            "price": "السعر",
+            "aed": "(AED)",
+            "status":"وضع المشروع",
+            "completed": "تاريخ الإنتهاء",
+            "apply": "تثبيت"
+        },
+        "listing": {
+            "location": "الأماكن",
+            "loadmore": "تحميل المزيد"
+        }
+    },
+    "project": {
+        "landing": {
+            "landing_item1": {
+                "content": "ابتداءً من"
+            },
+            "landing_item2": {
+                "content": "تاريخ انتهاء البناء"
+            },
+            "landing_item3": {
+                "content": "تاريخ التسليم"
+            },
+            "btn_payment": "خطة السداد",
+            "btn_mortgage": "قسم الرهن العقاري"
+        },
+        "gallery": {
+            "title": "معرض الصور",
+            "view": "جولة بدرجة 360",
+            "something": {
+                "title": "المجتمع",
+                "btnText": " أقرأ المزيد"
+            }
+        },
+        "offer": {
+            "title": "عروض حصرية",
+            "offer_item": {
+                "from": "متاح من",
+                "to": "إلى"
+            }
+        },
+        "advantage": {
+            "amenty": {
+                "title1": "المزايا",
+                "amenty-btn-brochure": "تحميل الكُتيب",
+                "amenty-btn-floor": "تحميل مخطط الطوابق"
+            },
+            "nearby": {
+                "title1": "في الجوار"
+            },
+            "location": {
+                "title": "الموقع",
+                "view": "عرض على خرائط جوجل"
+            },
+            "construction": {
+                "title": "تحديثات البناء"
+            },
+            "disclaimer": {
+                "title": "Disclaimer"
+            }
+        },
+        "community": {
+            "title": "المجتمع"
+        }
+    },
+    "offers": {
+        "caption": {
+            "header": "عروض",
+            "content": "استكشاف العروض الحصرية لدينا"
+        },
+        "offer_item": {
+            "from": "متاح من",
+            "to": "إلى"
+        }
+    },
+    "offer": {
+        "landing": {
+            "landing_item1": {
+                "content": "ابتداءً من"
+            },
+            "landing_item2": {
+                "content": "متاح حتى"
+            },
+            "enquire": "استفسر الان"
+        },
+        "select": {
+            "title": "اختيار المشاريع",
+            "btn-text": {
+                "brochure": "تحميل الكُتيب",
+                "floor": "تحميل مخطط الطوابق",
+                "view-project": "عرض المشروع"
+            },
+            "nav-text": {
+                "text1": "2 year payment plan",
+                "text2": "4 year payment plan",
+                "text3": "6 month payment plan"
+            },
+            "table": {
+                "thead": {
+                    "th1":"installment",
+                    "th2":"milestone",
+                    "th3":"payment(%)"
+                }
+            }
+        },
+        "register": {
+            "title": "ابق على تواصل معنا",
+            "required": "*جميع الحقول مطلوبة",
+            "select-text": "مبيعات",
+            "first-name": "الاسم الاول*",
+            "last-name": "العائلة*",
+            "mobile": "الهاتف المحمول*",
+            "email": "البريد الإلكتروني*",
+            "option1": "أود أن أسمع الأخبار والعروض",
+            "option2": "لقد قرأت ووافقت على",
+            "privacy": "سياسة الخصوصية",
+            "submit": "أرسل",
+            "MR":"السيد",
+             "MRS":"السيدة",
+            "MS" :"الآنسة"
+        }
+    },
+    "whyDamac": {
+        "caption": {
+            "title": "لمحة عن داماك",
+            "content": "قصتنا"
+        },
+        "story": {
+            "btn-text": "تحميل كتيب الشركة"
+        },
+        "message": {
+            "title": "رسالة الرئيس"
+        },
+        "management": {
+            "title": "Management Team"
+        },
+        "award": {
+            "title": "Awards"
+        },
+        "history": {
+            "title": "History",
+            "year-select": "Year",
+            "nav-text": {
+                "deliveries": "التسليم",
+                "announcements": "الإعلانات",
+                "corporate": "الشركات",
+                "التسليم": "التسليم",
+                "الإعلانات": "الإعلانات",
+                "الشركات": "الشركات"
+            }
+        },
+        "corporate": {
+            "knowMore": "المزيد عن csr"
+        }
+    },
+    "payment": {
+        "caption": {
+            "header": "خطة السداد"
+        },
+        "nav-text": {
+            "text1": "2 year payment plan",
+            "text2": "4 year payment plan",
+            "text3": "6 month payment plan"
+        },
+        "table": {
+            "thead": {
+                "th1":"instalment",
+                "th2":"milestone",
+                "th3":"payment(%)"
+            }
+        },
+        "return": "العودة إلى المشروع"
+    },
+    "csr": {
+        "landing": {
+            "btn-title": "الحياة في داماك"
+        },
+        "cause": {
+            "btn-text": "عن داماك"
+        }
+    },
+    "mortgage": {
+        "content": {
+            "title": "الرهن العقاري"
+        }
+    },
+    "chairman": {
+        "caption": {
+            "header": "لمحة عن داماك",
+            "content": "رسالة الرئيس"
+        }
+    },
+    "contact": {
+        "caption": {
+            "header": "اتصل بنا",
+            "content": "البقاء على اتصال معنا"
+        },
+        "select-btn-text": {
+            "text1": "الجميع",
+            "text2": "المكتب الرئيسي",
+            "text3": "uae sales office",
+            "text4": "international contacts",
+            "text5": "international call centres"
+        },
+        "contact-item": {
+            "address1": "DAMAC Properties Dubai PJSC",
+            "address2": "PO Box 2195",
+            "address3": "Dubai, UAE",
+            "phone": "+971 4 373 1000",
+            "fax": "+971 4 373 1001"
+        },
+        "contact-item-title": {
+            "title1": "الاتصال العامة",
+            "title2": "الموارد البشرية",
+            "title3": "شركات الاتصالات",
+            "title4": "قانوني",
+            "title5": "تواصل اعلامي",
+            "title6": "اتصال التسويق",
+            "title7": "عمليات الوكيل",
+            "title8": "مركز الاتصال الدولي"
+        }
+    },
+    "agent": {
+        "caption": {
+            "header": "بوابة الوكلاء",
+            "content": "كن وكيلا"
+        },
+        "portal": {
+            "title": "سجل معنا واستمتع بفوائد بوابة الوكيل المخصصة!",
+            "items": {
+                "item1": {
+                    "title": "Take Control",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item2": {
+                    "title": "CHECK Availability",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item3": {
+                    "title": "BOOK DIRECTLY",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item4": {
+                    "title": "RECEIVE",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item5": {
+                    "title": "access",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item6": {
+                    "title": "Manage",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item7": {
+                    "title": "Email",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item8": {
+                    "title": "get",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                },
+                "item9": {
+                    "title": "access",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum finibus risus."
+                }
+            },
+            "why-dubai": "why dubai"
+        },
+        "register": {
+            "title": "سجل الان",
+            "sub-title": {
+                "text1": "* إذا كنت بالفعل وكيلاً لدى DAMAC ، فيمكنك ذلك ",
+                "text2": "تسجيل الدخول هنا"
+            },
+            "input-text": {
+                "sales": "مبيعات*",
+                "company": "رقم تسجيل الشركة",
+                "turnover": "Turnover",
+                "auth": "المفوض بالتوقيع*",
+                "design": "Designation*",
+                "email": "البريد الإلكتروني*",
+                "united": "الإمارات العربية المتحدة",
+                "mobile": "الهاتف المحمول*",
+                "city": "مدينة"
+            }
+        }
+    },
+    "brochureModal": {
+        "title": "تحميل الكُتيب",
+        "sub-title": "*تلقي رابط التنزيل في بريدك الإلكتروني",
+        "email": "البريد الإلكتروني",
+        "submit": "أرسل"
+    },
+    "floorModal": {
+        "title": "تحميل مخطط الطوابق",
+        "sub-title": "*تلقي رابط التنزيل في بريدك الإلكتروني",
+        "sales": "مبيعات",
+        "submit": "أرسل"
+    },
+    "enquireModal": {
+        "title": "ابق على تواصل معنا",
+        "required": "*جميع الحقول مطلوبة",
+        "select-text": "مبيعات",
+        "input-title":"لقب*",
+        "first-name": "الاسم الاول*",
+        "last-name": "العائلة*",
+        "mobile": "الهاتف المحمول*",
+        "email": "البريد الإلكتروني*",
+        "option1": "أود أن أسمع الأخبار والعروض",
+        "option2": "لقد قرأت ووافقت على",
+        "privacy": "سياسة الخصوصية",
+        "submit": "أرسل",
+        "MR":"السيد",
+        "MRS":"السيدة",
+        "MS" :"الآنسة",
+        "thank-header":"Thank you!",
+        "thank-content": "We will be in contact shortly."
+    },
+    "sitemap": {
+        "caption": {
+            "header": "Sitemap",
+            "content": "Sitemap"
+        },
+        "title": "List of pages",
+        "pages": {
+            "page1": "Home",
+            "page2": "Projects",
+            "page3": "Offers",
+            "page4": "Mortgage Assist",
+            "page5": "About Damac",
+            "page6": "CSR",
+            "page7": "Agent Portal",
+            "page8": "Term&Conditions",
+            "page9": "Cookie Policy",
+            "page10": "Privacy Policy",
+            "page11": "Contact us"
+        }
+    }
+}

@@ -1,0 +1,70 @@
+.search-landing-section {
+    background-image: linear-gradient(270deg, #666666 0%, #000000 100%);
+    padding-top: 20px;
+    padding-bottom: 80px;
+    .content-container {
+        max-width: 900px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #979797;
+        input {
+            width: 100%;
+            border: none;
+            background: transparent;
+            outline: none;
+            font-family: "Didot-Bold";
+            font-size: 110px;
+            font-weight: 700;
+            color: white;
+            padding: 0px;
+
+            background: url(../../../images/search/search.png);
+            background-repeat: no-repeat;
+            background-position-x: calc(100% - 15px);
+            background-position-y: calc(100% - 25px);
+        }
+        ::placeholder {
+            background: -webkit-linear-gradient(rgba(255, 255, 255, 0.37), rgba(50, 50, 50, 0));
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            color: #636363;
+            font-family: "Didot-Bold";
+            font-size: 110px;
+            font-weight: 700;
+            letter-spacing: 2.06px;
+        }
+        .first-title {
+            color: #ffffff;
+            font-family: "Didot-Bold";
+            font-size: 110px;
+            font-weight: 700;
+            letter-spacing: 2.06px;
+            text-transform: uppercase;
+            display: inline;
+        }
+        .vertical-line {
+            border-right: 2px solid #979797;
+            height: 103px;
+            display: inline-block;
+            top: 15px;
+            position: relative;
+        }
+        .second-title {
+            background: -webkit-linear-gradient(rgba(255, 255, 255, 0.37), rgba(50, 50, 50, 0));
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            color: #636363;
+            font-family: "Didot-Bold";
+            font-size: 110px;
+            font-weight: 700;
+            letter-spacing: 2.06px;
+            display: inline;
+        }
+        img {
+            display: inline;
+            float: right;
+            top: 76px;
+            right: 10px;
+            position: relative;
+        }
+    }
+}
